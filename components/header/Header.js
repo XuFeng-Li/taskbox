@@ -28,13 +28,32 @@ export const Header = ({ user, onLogin, onLogout, onCreateAccount }) => (
       </div>
       <div>
         {user ? (
-          <Button size="small" onClick={onLogout} label="Log out" />
+          <Button
+              size="small"
+              onClick={()=>{
+                onLogout && onLogout();
+              }}
+              label="Log out"
+          />
         ) : (
-          <>
-            <Button size="small" onClick={onLogin} label="Log in" />
-            <Button primary size="small" onClick={onCreateAccount} label="Sign up" />
-          </>
-        )}
+          <div>
+            <Button
+                size="small"
+                onClick={()=>{
+                  onLogin && onLogin();
+                }}
+                label="Log in"
+            />
+            <Button
+                primary
+                size="small"
+                onClick={()=>{
+                  onCreateAccount && onCreateAccount();
+                }}
+                label="Sign up"
+            />
+          </div>
+        )}q
       </div>
     </div>
   </header>
@@ -49,4 +68,7 @@ Header.propTypes = {
 
 Header.defaultProps = {
   user: null,
+  onLogin:()=>{},
+  onLogout:()=>{},
+  onCreateAccount:()=>{}
 };

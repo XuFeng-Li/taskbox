@@ -6,7 +6,12 @@ import './page.css';
 
 export const Page = ({ user, onLogin, onLogout, onCreateAccount }) => (
   <article>
-    <Header user={user} onLogin={onLogin} onLogout={onLogout} onCreateAccount={onCreateAccount} />
+    <Header
+        user={user}
+        onLogin={onLogin}
+        onLogout={onLogout}
+        onCreateAccount={onCreateAccount}
+    />
 
     <section>
       <h2>Pages in Storybook</h2>
@@ -68,4 +73,7 @@ Page.propTypes = {
 
 Page.defaultProps = {
   user: null,
+  onLogin:()=>{},
+  onLogout:()=>{},
+  onCreateAccount:()=>{}
 };

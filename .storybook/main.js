@@ -1,11 +1,12 @@
 module.exports = {
   "stories": [
     "../components/**/*.stories.mdx",
-    "../components/button/Button.stories.@(js|jsx|ts|tsx)",
+    "../components/**/*.stories.@(js|jsx|ts|tsx)",
   ],
   "addons": [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
-    "@storybook/preset-create-react-app"
+    // https://github.com/storybookjs/storybook/issues/13255
+    // "@storybook/preset-create-react-app"
   ]
 }
