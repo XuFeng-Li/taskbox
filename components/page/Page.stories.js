@@ -1,3 +1,4 @@
+/*
 import React from 'react';
 
 import { Page } from './Page';
@@ -19,3 +20,4 @@ export const LoggedOut = Template.bind({});
 LoggedOut.args = {
   ...HeaderStories.LoggedOut.args,
 };
+*/
