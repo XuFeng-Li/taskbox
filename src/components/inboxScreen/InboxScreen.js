@@ -34,6 +34,6 @@ PureInboxScreen.propTypes = {
 
 PureInboxScreen.defaultProps = {
     error: null,
-}
+};
 
 export default connect(({error}) => ({error}))(PureInboxScreen);

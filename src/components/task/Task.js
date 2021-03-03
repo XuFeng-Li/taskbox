@@ -1,6 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
-import "../../src/index.css";
+import "../../index.css";
 
 export const Task = ({task: {id, title, state}, onArchiveTask, onPinTask}) => {
     return (
@@ -24,6 +24,7 @@ export const Task = ({task: {id, title, state}, onArchiveTask, onPinTask}) => {
                 {
                     state !== 'TASK_ARCHIVED' &&
                     <a
+                        href={'/#'}
                         onClick={() => onPinTask(id)}
                     >
                         <span className={`icon-star`} />

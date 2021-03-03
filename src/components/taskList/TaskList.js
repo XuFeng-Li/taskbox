@@ -1,5 +1,5 @@
 import React from 'react';
-import "../../src/index.css";
+import "../../index.css";
 import PropTypes from "prop-types";
 import {Task} from "../task/Task";
 

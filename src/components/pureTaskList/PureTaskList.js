@@ -1,9 +1,9 @@
 import React from 'react';
 import {connect} from "react-redux";
 import PropTypes from "prop-types";
-import "../../src/index.css";
+import "../../index.css";
 import {Task} from "../task/Task";
-import { archiveTask,pinTask } from "../../src/store/redux";
+import { archiveTask,pinTask } from "../../store/redux";
 
 export const PureTaskList = ({ loading, tasks, onPinTask, onArchiveTask}) => {
     const events = {
