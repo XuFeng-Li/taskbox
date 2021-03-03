@@ -1,3 +1,6 @@
+const path = require('path');
+
+const custom = require('../webpack.config.js');
 module.exports = {
   "stories": [
     "../components/**/*.stories.mdx",
@@ -8,5 +11,23 @@ module.exports = {
     "@storybook/addon-essentials",
     // https://github.com/storybookjs/storybook/issues/13255
     // "@storybook/preset-create-react-app"
-  ]
-}
+  ],
+  "webpackFinal": (config) => {
+    // 添加 sass 支持
+    config.module.rules.push({
+      test: /\.scss$/,
+      use: ['style-loader', 'css-loader', 'sass-loader'],
+      include: path.resolve(__dirname, '../'),
+    });
+    if (custom && custom.module && custom.module.rules) {
+      config = {
+        ...config,
+        module: {
+          ...config.module,
+          rules: custom.module?.rules || {},
+        }
+      }
+    }
+    return config;
+  }
+};
