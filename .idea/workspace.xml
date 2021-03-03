@@ -2,26 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="21d06e4c-0c39-4b27-8f44-ef36f9baa7ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/components/inboxScreen/InboxScreen.stories.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/button/Button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/Button.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/button/Button.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/Button.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/button/button.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/button/button.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/header/Header.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/header/Header.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/Header.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/header/header.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/header/header.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/inboxScreen/InboxScreen.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/inboxScreen/InboxScreen.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/introduction/Introduction.stories.mdx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/introduction/Introduction.stories.mdx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/page/Page.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page/Page.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/page/Page.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page/Page.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/page/page.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/page/page.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/pureTaskList/PureTaskList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pureTaskList/PureTaskList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/pureTaskList/PureTaskList.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/pureTaskList/PureTaskList.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/task/Task.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/task/Task.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/task/Task.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/task/Task.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/taskList/TaskList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/taskList/TaskList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/taskList/TaskList.stories.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/taskList/TaskList.stories.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/components/taskList/TaskList.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/taskList/TaskList.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.storybook/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/.storybook/main.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -33,59 +16,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="vertical" split-proportion="0.9">
+    <splitter split-orientation="vertical" split-proportion="0.6095166">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/taskList/TaskList.test.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/task/Task.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="480">
-                  <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/store/redux.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-                </state>
-              </provider>
-            </entry>
-          </file>
           <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/App.js">
+            <entry file="file://$PROJECT_DIR$/src/components/inboxScreen/InboxScreen.stories.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="270">
-                  <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
-                  <folding>
-                    <element signature="e#0#26#0" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/components/inboxScreen/InboxScreen.js">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="540">
-                  <caret line="36" column="2" selection-start-line="36" selection-start-column="2" selection-end-line="36" selection-end-column="2" />
+                <state relative-caret-position="495">
+                  <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -97,11 +35,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/components/taskList/TaskList.js">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="21">
-                  <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+                  <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -109,11 +47,11 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/components/pureTaskList/PureTaskList.stories.js">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="90">
-                  <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+                <state relative-caret-position="26">
+                  <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
                   <folding>
                     <element signature="e#0#26#0" expanded="true" />
                   </folding>
@@ -159,12 +97,13 @@
         <option value="$PROJECT_DIR$/components/pureTaskList/PureTaskList.stories.js" />
         <option value="$PROJECT_DIR$/components/pureTaskList/PureTaskList.js" />
         <option value="$PROJECT_DIR$/components/inboxScreen/InboxScreen.js" />
-        <option value="$PROJECT_DIR$/.storybook/main.js" />
         <option value="$PROJECT_DIR$/src/components/introduction/Introduction.stories.mdx" />
         <option value="$PROJECT_DIR$/src/components/pureTaskList/PureTaskList.js" />
         <option value="$PROJECT_DIR$/src/components/task/Task.js" />
         <option value="$PROJECT_DIR$/src/components/inboxScreen/InboxScreen.js" />
         <option value="$PROJECT_DIR$/src/App.js" />
+        <option value="$PROJECT_DIR$/.storybook/main.js" />
+        <option value="$PROJECT_DIR$/src/components/inboxScreen/InboxScreen.stories.js" />
       </list>
     </option>
   </component>
@@ -300,7 +239,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19792000" />
+    <option name="totallyTimeSpent" value="21211000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1080" y="-709" width="1080" height="1920" extended-state="6" />
@@ -320,7 +259,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.34486488" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28432432" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -464,27 +403,10 @@
     <entry file="file://$PROJECT_DIR$/webpack.config.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/.storybook/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="25" column="27" selection-start-line="25" selection-start-column="27" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/components/introduction/Introduction.stories.mdx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="17" column="16" lean-forward="true" selection-start-line="17" selection-start-column="16" selection-end-line="17" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/components/pureTaskList/PureTaskList.stories.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -501,7 +423,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/taskList/TaskList.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="29" column="30" lean-forward="true" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
+          <caret line="29" column="30" selection-start-line="29" selection-start-column="30" selection-end-line="29" selection-end-column="30" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -511,7 +433,7 @@
     <entry file="file://$PROJECT_DIR$/src/components/taskList/TaskList.test.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
+          <caret line="15" selection-start-line="15" selection-end-line="15" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -521,7 +443,34 @@
     <entry file="file://$PROJECT_DIR$/src/components/task/Task.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="32" column="18" lean-forward="true" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <caret line="32" column="18" selection-start-line="32" selection-start-column="18" selection-end-line="32" selection-end-column="18" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/store/redux.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/components/pureTaskList/PureTaskList.stories.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -538,17 +487,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/store/redux.js">
+    <entry file="file://$PROJECT_DIR$/.storybook/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" lean-forward="true" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="180">
+          <caret line="12" column="40" lean-forward="true" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App.js">
+    <entry file="file://$PROJECT_DIR$/src/components/inboxScreen/InboxScreen.stories.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        <state relative-caret-position="495">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

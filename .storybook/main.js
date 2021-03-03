@@ -3,14 +3,14 @@ const path = require('path');
 const custom = require('../webpack.config.js');
 module.exports = {
   "stories": [
-    "../components/**/*.stories.mdx",
-    "../components/**/*.stories.@(js|jsx|ts|tsx)",
+    "../src/components/**/*.stories.mdx",
+    "../src/components/**/*.stories.@(js|jsx|ts|tsx)",
   ],
   "addons": [
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     // https://github.com/storybookjs/storybook/issues/13255
-    // "@storybook/preset-create-react-app"
+    "@storybook/preset-create-react-app"
   ],
   "webpackFinal": (config) => {
     // 添加 sass 支持
