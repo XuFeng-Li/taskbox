@@ -2,7 +2,7 @@
 import React from 'react';
 
 import { Page } from './Page';
-import * as HeaderStories from '../header/Header.stories';
+import * as HeaderStories from '../header/Header.task';
 
 export default {
   title: 'Example/Page',

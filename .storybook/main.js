@@ -3,6 +3,8 @@ const path = require('path');
 const custom = require('../webpack.config.js');
 module.exports = {
   "stories": [
+    "../packages/**/*.stories.mdx",
+    "../packages/**/*.stories.@(js|jsx|ts|tsx)",
     "../src/components/**/*.stories.mdx",
     "../src/components/**/*.stories.@(js|jsx|ts|tsx)",
   ],
