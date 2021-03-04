@@ -1,4 +1,4 @@
-import { XFStoryBookDemoTask } from "./task/Task.jsx";
+import { XFStoryBookDemoTask } from "./task/Task.js";
 
 export {
   XFStoryBookDemoTask,
