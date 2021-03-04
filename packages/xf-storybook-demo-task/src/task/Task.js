@@ -2,7 +2,7 @@ import React from "react";
 import PropTypes from "prop-types";
 import "./Task.css";
 
-export const XFStoryBookDemoTask = ({task: {id, title, state}, onArchiveTask, onPinTask}) => {
+const XFStoryBookDemoTask = ({task: {id, title, state}, onArchiveTask, onPinTask}) => {
     return (
         <div className={`list-item ${state}`}>
             <label className="checkbox">
@@ -39,6 +39,7 @@ export const XFStoryBookDemoTask = ({task: {id, title, state}, onArchiveTask, on
         </div>
     );
 };
+export default XFStoryBookDemoTask;
 
 XFStoryBookDemoTask.propTypes = {
     /** Composition of the task */

@@ -1,5 +1,5 @@
 import React from "react";
-import {XFStoryBookDemoTask} from "./Task";
+import XFStoryBookDemoTask from "./Task";
 
 export default {
     title: "Example/XFStoryBookDemoTask",

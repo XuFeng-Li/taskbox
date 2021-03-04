@@ -1,0 +1,21 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "modules": false // 避免在rollup处理之前，被babel转成CommonJS格式
+      }
+    ],
+    "@babel/preset-react"
+  ],
+  "plugins": [
+    "@babel/plugin-external-helpers",
+    "@babel/plugin-transform-arrow-functions",
+    "@babel/plugin-proposal-class-properties",
+    ["import", {
+      "libraryName": "antd",
+      "libraryDirectory": "es",
+      "style": true // `style: true` 会加载 less 文件, css加载.css文件
+    }]
+  ]
+}
