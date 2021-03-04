@@ -9,6 +9,7 @@
   "homepage": "https://github.com/XuFeng-Li/taskbox#readme",
   "license": "ISC",
   "main": "dist/index.js",
+  "min": "dist/index.min.js",
   "module": "dist/es/index.es.js",
   "directories": {
     "lib": "src",
@@ -33,6 +34,13 @@
   "bugs": {
     "url": "https://github.com/XuFeng-Li/taskbox/issues"
   },
-  "devDependencies": {
+  "devDependencies": {},
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  },
+  "peerDependencies": {
+    "antd": "^3.35.3",
+    "react": "^16.11.0",
+    "react-dom": "^16.11.0"
   }
 }
