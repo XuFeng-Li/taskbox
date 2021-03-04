@@ -10,7 +10,7 @@ module.exports = {
     "@storybook/addon-links",
     "@storybook/addon-essentials",
     // https://github.com/storybookjs/storybook/issues/13255
-    "@storybook/preset-create-react-app"
+    // "@storybook/preset-create-react-app"
   ],
   "webpackFinal": (config) => {
     // 添加 sass 支持
