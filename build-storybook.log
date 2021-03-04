@@ -1,7 +1,7 @@
 warning ../../../../package.json: No license field
 $ build-storybook -s public --output-dir /var/folders/2p/0wdcktrs7478q5bgdmp7_9bc0000gn/T/chromatic--18429-HjR4hDbV5Q5c
 info @storybook/react v6.1.20
-info 
+info
 info => Cleaning outputDir /var/folders/2p/0wdcktrs7478q5bgdmp7_9bc0000gn/T/chromatic--18429-HjR4hDbV5Q5c
 info => Copying static files from: public
 info => Using prebuilt manager
@@ -17,9 +17,9 @@ info => Modifying Create React App rules.
 info => Using default Webpack setup
 info => Compiling preview..
 <s> [webpack.Progress] 0% compiling
-<s> [webpack.Progress] 10% building 0/0 modules 0 active 
+<s> [webpack.Progress] 10% building 0/0 modules 0 active
 <s> [webpack.Progress] 10% building 0/1 modules 1 active multi /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/@storybook/core/dist/server/common/polyfills.js /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/@storybook/core/dist/server/preview/globals.js /Users/lucky1204/Documents/Learn/Storybook/taskbox/.storybook/storybook-init-framework-entry.js /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/@storybook/addon-docs/dist/frameworks/common/config.js-generated-other-entry.js /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/@storybook/addon-docs/dist/frameworks/react/config.js-generated-other-entry.js /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/@storybook/addon-links/dist/preset/addDecorator.js-generated-other-entry.js /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/@storybook/addon-actions/dist/preset/addDecorator.js-generated-other-entry.js /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/@storybook/addon-actions/dist/preset/addArgs.js-generated-other-entry.js /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/@storybook/addon-backgrounds/dist/preset/addDecorator.js-generated-other-entry.js /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/@storybook/addon-backgrounds/dist/preset/addParameter.js-generated-other-entry.js /Users/lucky1204/Documents/Learn/Storybook/taskbox/.storybook/preview.js-generated-config-entry.js /Users/lucky1204/Documents/Learn/Storybook/taskbox/.storybook/generated-stories-entry.js
-<s> [webpack.Progress] 10% building 1/1 modules 0 active 
+<s> [webpack.Progress] 10% building 1/1 modules 0 active
 <s> [webpack.Progress] 10% building 1/2 modules 1 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/react-scripts/node_modules/babel-loader/lib/index.js??ref--9-oneOf-2!/Users/lucky1204/Documents/Learn/Storybook/taskbox/.storybook/storybook-init-framework-entry.js
 <s> [webpack.Progress] 10% building 1/3 modules 2 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/react-scripts/node_modules/babel-loader/lib/index.js??ref--9-oneOf-2!/Users/lucky1204/Documents/Learn/Storybook/taskbox/.storybook/preview.js-generated-config-entry.js
 <s> [webpack.Progress] 10% building 1/4 modules 3 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/react-scripts/node_modules/babel-loader/lib/index.js??ref--9-oneOf-2!/Users/lucky1204/Documents/Learn/Storybook/taskbox/.storybook/generated-stories-entry.js
@@ -63,7 +63,7 @@ info => Compiling preview..
 <s> [webpack.Progress] 12% building 20/23 modules 3 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/src/components sync /^\.(?:(?:^|\/|(?:(?:(?!(?:^|\/)\.).)*?)\/)(?!\.)(?=.)[^/]*?\.stories\.(js|jsx|ts|tsx))$/
 <s> [webpack.Progress] 12% building 21/23 modules 2 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/src/components sync /^\.(?:(?:^|\/|(?:(?:(?!(?:^|\/)\.).)*?)\/)(?!\.)(?=.)[^/]*?\.stories\.(js|jsx|ts|tsx))$/
 <s> [webpack.Progress] 12% building 22/23 modules 1 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/react-scripts/node_modules/babel-loader/lib/index.js??ref--9-oneOf-2!/Users/lucky1204/Documents/Learn/Storybook/taskbox/.storybook/preview.js
-<s> [webpack.Progress] 12% building 23/23 modules 0 active 
+<s> [webpack.Progress] 12% building 23/23 modules 0 active
 <s> [webpack.Progress] 12% building 23/24 modules 1 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/@storybook/core/node_modules/webpack/buildin/module.js
 <s> [webpack.Progress] 12% building 23/25 modules 2 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/@storybook/addon-actions/dist/index.js
 <s> [webpack.Progress] 12% building 23/26 modules 3 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/@storybook/addon-links/dist/index.js
@@ -75,7 +75,7 @@ info => Compiling preview..
 <s> [webpack.Progress] 13% building 26/29 modules 3 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/@storybook/addon-docs/dist/frameworks/react/jsxDecorator.js
 <s> [webpack.Progress] 13% building 27/29 modules 2 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/@storybook/addon-docs/dist/frameworks/react/jsxDecorator.js
 <s> [webpack.Progress] 13% building 28/29 modules 1 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/@storybook/addon-docs/dist/frameworks/react/jsxDecorator.js
-<s> [webpack.Progress] 13% building 29/29 modules 0 active 
+<s> [webpack.Progress] 13% building 29/29 modules 0 active
 <s> [webpack.Progress] 13% building 29/30 modules 1 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/@storybook/core/node_modules/babel-loader/lib/index.js??ref--5-0!/Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/@mdx-js/loader/index.js??ref--5-1!/Users/lucky1204/Documents/Learn/Storybook/taskbox/src/components/introduction/Introduction.stories.mdx
 <s> [webpack.Progress] 13% building 29/31 modules 2 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/react-scripts/node_modules/babel-loader/lib/index.js??ref--9-oneOf-2!/Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/@storybook/source-loader/dist/index.js??ref--7!/Users/lucky1204/Documents/Learn/Storybook/taskbox/src/components/button/Button.stories.js
 <s> [webpack.Progress] 13% building 29/32 modules 3 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/react-scripts/node_modules/babel-loader/lib/index.js??ref--9-oneOf-2!/Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/@storybook/source-loader/dist/index.js??ref--7!/Users/lucky1204/Documents/Learn/Storybook/taskbox/src/components/header/Header.stories.js
@@ -154,8 +154,8 @@ info => Compiling preview..
 <s> [webpack.Progress] 17% building 59/75 modules 16 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/react-scripts/node_modules/babel-loader/lib/index.js??ref--9-oneOf-2!/Users/lucky1204/Documents/Learn/Storybook/taskbox/src/components/inboxScreen/InboxScreen.js
 <s> [webpack.Progress] 17% building 59/76 modules 17 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/react-scripts/node_modules/babel-loader/lib/index.js??ref--9-oneOf-2!/Users/lucky1204/Documents/Learn/Storybook/taskbox/src/components/pureTaskList/PureTaskList.js
 <s> [webpack.Progress] 17% building 59/77 modules 18 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/react-scripts/node_modules/babel-loader/lib/index.js??ref--9-oneOf-2!/Users/lucky1204/Documents/Learn/Storybook/taskbox/src/components/taskList/TaskList.js
-<s> [webpack.Progress] 17% building 59/78 modules 19 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/react-scripts/node_modules/babel-loader/lib/index.js??ref--9-oneOf-2!/Users/lucky1204/Documents/Learn/Storybook/taskbox/src/components/task/Task.js
-<s> [webpack.Progress] 17% building 60/78 modules 18 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/react-scripts/node_modules/babel-loader/lib/index.js??ref--9-oneOf-2!/Users/lucky1204/Documents/Learn/Storybook/taskbox/src/components/task/Task.js
+<s> [webpack.Progress] 17% building 59/78 modules 19 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/react-scripts/node_modules/babel-loader/lib/index.js??ref--9-oneOf-2!/Users/lucky1204/Documents/Learn/Storybook/taskbox/src/components/task/Task.jsx
+<s> [webpack.Progress] 17% building 60/78 modules 18 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/react-scripts/node_modules/babel-loader/lib/index.js??ref--9-oneOf-2!/Users/lucky1204/Documents/Learn/Storybook/taskbox/src/components/task/Task.jsx
 <s> [webpack.Progress] 17% building 60/79 modules 19 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/core-js/features/symbol/index.js
 <s> [webpack.Progress] 17% building 61/79 modules 18 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/core-js/features/symbol/index.js
 <s> [webpack.Progress] 17% building 61/80 modules 19 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/react/jsx-runtime.js
@@ -2807,7 +2807,7 @@ info => Compiling preview..
 <s> [webpack.Progress] 69% building 1392/1395 modules 3 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/promise.prototype.finally/node_modules/es-abstract/2018/DefinePropertyOrThrow.js
 <s> [webpack.Progress] 69% building 1393/1395 modules 2 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/promise.prototype.finally/node_modules/es-abstract/2018/DefinePropertyOrThrow.js
 <s> [webpack.Progress] 69% building 1394/1395 modules 1 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/promise.prototype.finally/node_modules/es-abstract/2018/DefinePropertyOrThrow.js
-<s> [webpack.Progress] 70% building 1395/1395 modules 0 active 
+<s> [webpack.Progress] 70% building 1395/1395 modules 0 active
 <s> [webpack.Progress] 69% building 1395/1396 modules 1 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/object-inspect/index.js
 <s> [webpack.Progress] 69% building 1395/1397 modules 2 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/es-abstract/2020/DefinePropertyOrThrow.js
 <s> [webpack.Progress] 69% building 1395/1398 modules 3 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/es-abstract/2020/abs.js
@@ -2815,7 +2815,7 @@ info => Compiling preview..
 <s> [webpack.Progress] 69% building 1396/1399 modules 3 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/es-abstract/2020/floor.js
 <s> [webpack.Progress] 69% building 1397/1399 modules 2 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/es-abstract/2020/floor.js
 <s> [webpack.Progress] 69% building 1398/1399 modules 1 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/es-abstract/2020/floor.js
-<s> [webpack.Progress] 70% building 1399/1399 modules 0 active 
+<s> [webpack.Progress] 70% building 1399/1399 modules 0 active
 <s> [webpack.Progress] 69% building 1399/1400 modules 1 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/es-abstract/2020/GetMethod.js
 <s> [webpack.Progress] 69% building 1399/1401 modules 2 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/es-abstract/2020/Set.js
 <s> [webpack.Progress] 69% building 1399/1402 modules 3 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/es-abstract/2020/SpeciesConstructor.js
@@ -2851,7 +2851,7 @@ info => Compiling preview..
 <s> [webpack.Progress] 69% building 1414/1417 modules 3 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/promise.prototype.finally/node_modules/es-abstract/helpers/isPropertyDescriptor.js
 <s> [webpack.Progress] 69% building 1415/1417 modules 2 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/promise.prototype.finally/node_modules/es-abstract/helpers/isPropertyDescriptor.js
 <s> [webpack.Progress] 69% building 1416/1417 modules 1 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/promise.prototype.finally/node_modules/es-abstract/helpers/isPropertyDescriptor.js
-<s> [webpack.Progress] 70% building 1417/1417 modules 0 active 
+<s> [webpack.Progress] 70% building 1417/1417 modules 0 active
 <s> [webpack.Progress] 69% building 1417/1418 modules 1 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/es-abstract/helpers/isPropertyDescriptor.js
 <s> [webpack.Progress] 69% building 1417/1419 modules 2 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/es-abstract/2020/IsAccessorDescriptor.js
 <s> [webpack.Progress] 69% building 1417/1420 modules 3 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/regexp.prototype.flags/index.js
@@ -2885,7 +2885,7 @@ info => Compiling preview..
 <s> [webpack.Progress] 69% building 1431/1434 modules 3 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/promise.prototype.finally/node_modules/es-abstract/helpers/callBound.js
 <s> [webpack.Progress] 69% building 1432/1434 modules 2 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/promise.prototype.finally/node_modules/es-abstract/helpers/callBound.js
 <s> [webpack.Progress] 69% building 1433/1434 modules 1 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/promise.prototype.finally/node_modules/es-abstract/helpers/callBound.js
-<s> [webpack.Progress] 70% building 1434/1434 modules 0 active 
+<s> [webpack.Progress] 70% building 1434/1434 modules 0 active
 <s> [webpack.Progress] 69% building 1434/1435 modules 1 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/regexp.prototype.flags/polyfill.js
 <s> [webpack.Progress] 69% building 1434/1436 modules 2 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/regexp.prototype.flags/shim.js
 <s> [webpack.Progress] 69% building 1434/1437 modules 3 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/regexp.prototype.flags/implementation.js
@@ -2905,7 +2905,7 @@ info => Compiling preview..
 <s> [webpack.Progress] 69% building 1441/1444 modules 3 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/promise.prototype.finally/node_modules/es-abstract/helpers/callBind.js
 <s> [webpack.Progress] 69% building 1442/1444 modules 2 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/promise.prototype.finally/node_modules/es-abstract/helpers/callBind.js
 <s> [webpack.Progress] 69% building 1443/1444 modules 1 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/promise.prototype.finally/node_modules/es-abstract/helpers/callBind.js
-<s> [webpack.Progress] 70% building 1444/1444 modules 0 active 
+<s> [webpack.Progress] 70% building 1444/1444 modules 0 active
 <s> [webpack.Progress] 69% building 1444/1445 modules 1 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/es-get-iterator/index.js
 <s> [webpack.Progress] 69% building 1444/1446 modules 2 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/iterate-iterator/index.js
 <s> [webpack.Progress] 69% building 1444/1447 modules 3 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/es-abstract/2020/ToUint32.js
@@ -2917,11 +2917,11 @@ info => Compiling preview..
 <s> [webpack.Progress] 69% building 1447/1450 modules 3 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/es-abstract/2020/UTF16DecodeSurrogatePair.js
 <s> [webpack.Progress] 69% building 1448/1450 modules 2 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/es-abstract/2020/UTF16DecodeSurrogatePair.js
 <s> [webpack.Progress] 69% building 1449/1450 modules 1 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/es-abstract/2020/UTF16DecodeSurrogatePair.js
-<s> [webpack.Progress] 70% building 1450/1450 modules 0 active 
+<s> [webpack.Progress] 70% building 1450/1450 modules 0 active
 <s> [webpack.Progress] 69% building 1450/1451 modules 1 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/es-array-method-boxes-properly/index.js
 <s> [webpack.Progress] 69% building 1450/1452 modules 2 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/side-channel/index.js
 <s> [webpack.Progress] 69% building 1451/1452 modules 1 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/side-channel/index.js
-<s> [webpack.Progress] 70% building 1452/1452 modules 0 active 
+<s> [webpack.Progress] 70% building 1452/1452 modules 0 active
 <s> [webpack.Progress] 69% building 1452/1453 modules 1 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/is-arguments/index.js
 <s> [webpack.Progress] 69% building 1452/1454 modules 2 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/is-map/index.js
 <s> [webpack.Progress] 69% building 1452/1455 modules 3 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/is-set/index.js
@@ -2929,8 +2929,8 @@ info => Compiling preview..
 <s> [webpack.Progress] 69% building 1453/1456 modules 3 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/es-get-iterator/node_modules/isarray/index.js
 <s> [webpack.Progress] 69% building 1454/1456 modules 2 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/es-get-iterator/node_modules/isarray/index.js
 <s> [webpack.Progress] 69% building 1455/1456 modules 1 active /Users/lucky1204/Documents/Learn/Storybook/taskbox/node_modules/es-get-iterator/node_modules/isarray/index.js
-<s> [webpack.Progress] 70% building 1456/1456 modules 0 active 
-<s> [webpack.Progress] 70% building 1456/1456 modules 0 active 
+<s> [webpack.Progress] 70% building 1456/1456 modules 0 active
+<s> [webpack.Progress] 70% building 1456/1456 modules 0 active
 <s> [webpack.Progress] 70% finish module graph
 <s> [webpack.Progress] 70% finish module graph ESLintWebpackPlugin
 <s> [webpack.Progress] 70% finish module graph FlagDependencyExportsPlugin
@@ -3024,29 +3024,29 @@ info => Compiling preview..
 <s> [webpack.Progress] 95% emitting ManifestPlugin
 <s> [webpack.Progress] 98% after emitting
 <s> [webpack.Progress] 98% after emitting SizeLimitsPlugin
-<s> [webpack.Progress] 100% 
+<s> [webpack.Progress] 100%
 
 info => Preview built (12 s)
-WARN 
+WARN
 WARN src/components/button/Button.stories.js
 WARN   Line 5:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
-WARN 
+WARN
 WARN src/components/inboxScreen/InboxScreen.stories.js
 WARN   Line 20:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
-WARN 
+WARN
 WARN src/components/pureTaskList/PureTaskList.stories.js
 WARN   Line 6:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
-WARN 
+WARN
 WARN src/components/task/Task.stories.js
 WARN   Line 4:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
-WARN 
+WARN
 WARN src/components/taskList/TaskList.stories.js
 WARN   Line 6:1:  Assign object to a variable before exporting as module default  import/no-anonymous-default-export
-WARN 
-WARN 
+WARN
+WARN
 WARN asset size limit: The following asset(s) exceed the recommended size limit (244 KiB).
 WARN This can impact web performance.
-WARN Assets: 
+WARN Assets:
 WARN   vendors~main.1df717904b040262f14b.bundle.js (2.38 MiB)
 WARN entrypoint size limit: The following entrypoint(s) combined asset size exceeds the recommended limit (244 KiB). This can impact web performance.
 WARN Entrypoints:
@@ -3055,8 +3055,8 @@ WARN       runtime~main.1df717904b040262f14b.bundle.js
 WARN       vendors~main.1df717904b040262f14b.bundle.js
 WARN       static/css/main.d110cbf5.chunk.css
 WARN       main.1df717904b040262f14b.bundle.js
-WARN 
-WARN webpack performance recommendations: 
+WARN
+WARN webpack performance recommendations:
 WARN You can limit the size of your bundles by using import() or require.ensure to lazy load some parts of your application.
 WARN For more info visit https://webpack.js.org/guides/code-splitting/
 info => Output directory: /var/folders/2p/0wdcktrs7478q5bgdmp7_9bc0000gn/T/chromatic--18429-HjR4hDbV5Q5c
