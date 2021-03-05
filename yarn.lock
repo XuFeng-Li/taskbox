@@ -19631,8 +19631,10 @@ ws@^6.1.2:
   dependencies:
     async-limiter "~1.0.0"
 
-xf-storybook-demo-task@./packages/xf-storybook-demo-task:
-  version "0.0.1"
+xf-storybook-demo-task@^0.0.2:
+  version "0.0.2"
+  resolved "https://registry.npmjs.org/xf-storybook-demo-task/-/xf-storybook-demo-task-0.0.2.tgz#bda8f46a9837f759bdbc7b73665bd146310a539a"
+  integrity sha512-8ivZ1ZQHzmOalEQzf5QnkcaqZNT5OTQ+1K+TPPa7Crr+XTUhkomH2ahpQnwaSmh68YT9S9eP7Akr5XMt5bda2w==
   dependencies:
     prop-types "^15.7.2"
 
