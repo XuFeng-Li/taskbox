@@ -17776,7 +17776,7 @@ store2@^2.7.1:
   resolved "https://registry.npmjs.org/store2/-/store2-2.12.0.tgz#e1f1b7e1a59b6083b2596a8d067f6ee88fd4d3cf"
   integrity sha512-7t+/wpKLanLzSnQPX8WAcuLCCeuSHoWdQuh9SB3xD0kNOM38DNf+0Oa+wmvxmYueRzkmh6IcdKFtvTa+ecgPDw==
 
-storybook-readme@^5.0.8:
+storybook-readme@^5.0.9:
   version "5.0.9"
   resolved "https://registry.npmjs.org/storybook-readme/-/storybook-readme-5.0.9.tgz#a6670e43cf7d53383f6edffb0a534f52004f3945"
   integrity sha512-rKMWyqXZ4HSMk2qTF0oog2tn94QxgkOMb+YQ6gs9ibcdJWmWEcsXhK/87HO4Lix6kTNNmTh3brnjOTu9w2bJEQ==

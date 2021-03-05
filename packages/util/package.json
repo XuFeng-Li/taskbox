@@ -33,5 +33,9 @@
   },
   "bugs": {
     "url": "https://github.com/XuFeng-Li/taskbox/issues"
+  },
+  "dependencies": {
+    "mathjs": "^9.2.0",
+    "qs": "^6.9.6"
   }
 }
