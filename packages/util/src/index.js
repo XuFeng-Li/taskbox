@@ -1,9 +1,18 @@
 import React from 'react';
+import PropTypes from "prop-types";
 import { parse, stringify } from 'qs';
 
-export function fixedZero(val) {
+import {FormatWan} from './formatWan/FormatWan';
+export {
+  FormatWan,
+};
+
+export const fixedZero = (val) => {
   return val * 1 < 10 ? `0${val}` : val;
-}
+};
+fixedZero.PropTypes = {
+  val: PropTypes.number.isRequired
+};
 
 export function getPlainNode(nodeList, parentPath = '') {
   const arr = [];
@@ -99,41 +108,22 @@ export function isUrl(path) {
   return reg.test(path);
 }
 
-export function formatWan(val) {
-  const v = val * 1;
-  if (!v || Number.isNaN(v)) return '';
 
-  let result = val;
-  if (val > 10000) {
-    result = Math.floor(val / 10000);
-    result = (
-      <span>
-        {result}
-        <span
-          style={{
-            position: 'relative',
-            top: -2,
-            fontSize: 14,
-            fontStyle: 'normal',
-            marginLeft: 2,
-          }}
-        >
-          万
-        </span>
-      </span>
-    );
-  }
-  return result;
-}
-
-// 给官方演示站点用，用于关闭真实开发环境不需要使用的特性
+/** 给官方演示站点用，用于关闭真实开发环境不需要使用的特性 */
 export function isAntdPro() {
   return window.location.hostname === 'preview.pro.ant.design';
 }
 
 // 类型判断
-const isType = type => obj =>
-  obj != null && Object.prototype.toString.call(obj) === `[object ${type}]`;
+// const isType = type => obj =>
+//   obj != null && Object.prototype.toString.call(obj) === `[object ${type}]`;
+
+const isType = type => {
+  return obj => {
+    return obj != null && Object.prototype.toString.call(obj) === `[object ${type}]`;
+  };
+};
+
 export const isFn = isType('Function');
 export const isArr = Array.isArray || isType('Array');
 export const isPlainObj = isType('Object');
@@ -822,4 +812,12 @@ export const fenToWan = (fen, decimal = 2, afterfix = '') => {
 export const getFileTypeByName = (name) => {
   const index = name.lastIndexOf('.');
   return name.slice(index);
+};
+
+export const StoriesDiv = ({child,prop}) => {
+  return (
+    <div>
+      {child}
+    </div>
+  );
 };

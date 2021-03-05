@@ -1,8 +1,21 @@
 import React from "react";
-
-export default {
-  title: "Example/@taskboxdemo/util",
-}
-
-const Template = args=> <div />;
-export const Default = Template.bind({});
+import { FormatWan } from "../index";
+// import {storiesOf} from "@storybook/react";
+// export default {
+//   title: "Example/Util",
+//   component:FormatWan,
+// }
+//
+//
+// export const FormatWanDefault = ()=>{
+//   return (
+//     <div
+//       style={{
+//         display:'flex',
+//         flexDirection:'column'
+//       }}
+//     >
+//       <FormatWan val={1111} />
+//     </div>
+//   );
+// };
