@@ -6,7 +6,7 @@ import * as TaskStories from "../task/Task.stories";
 export default {
     title: "Example/PureTaskList",
     component: PureTaskList,
-    // decorators: [story => <div style={{ padding: '3rem'}}>{story()}</div>]
+    decorators: [story => <div style={{ padding: '3rem'}}>{story()}</div>]
 }
 
 const Template = args => <PureTaskList {...args} />;
