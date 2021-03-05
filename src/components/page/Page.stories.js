@@ -1,8 +1,7 @@
-/*
 import React from 'react';
 
 import { Page } from './Page';
-import * as HeaderStories from '../header/Header.task';
+import * as HeaderStories from '../header/Header.stories';
 
 export default {
   title: 'Example/Page',
@@ -20,4 +19,3 @@ export const LoggedOut = Template.bind({});
 LoggedOut.args = {
   ...HeaderStories.LoggedOut.args,
 };
-*/

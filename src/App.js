@@ -1,14 +1,20 @@
 import React from "react";
-import { Provider } from "react-redux";
+// import { Provider } from "react-redux";
 import logo from './logo.svg';
-import store from "./store/redux";
+// import store from "./store/redux";
 
-import InboxScreen from './components/inboxScreen/InboxScreen';
+// import InboxScreen from './components/inboxScreen/InboxScreen';
 // import logo from './logo.svg';
 import './App.css';
 import {XFStoryBookDemoTask} from "xf-storybook-demo-task";
 
 function App() {
+  const task = {
+    id:'1',
+    title:'Test Task',
+    state: 'TASK_INBOX',
+    updatedAt: new Date(),
+  };
   return (
     <div className="App">
       <header className="App-header">
@@ -26,15 +32,17 @@ function App() {
         </a>
       </header>
       <body>
-      <XFStoryBookDemoTask />
+      <XFStoryBookDemoTask
+        task={task}
+        onArchiveTask={(id)=>{
+          console.log(`on archive task,id is - ${id}`);
+        }}
+        onPinTask={(id) => {
+          console.log(`on pin task,id is - ${id}`);
+        }}
+      />
       </body>
-      {/*<script src='../dist/bundle.cjs.js' />*/}
     </div>
-  );
-  return (
-      <Provider store={store}>
-        <InboxScreen />
-      </Provider>
   );
 }
 
