@@ -1,5 +1,5 @@
 {
-  "name": "@taskboxdemo/util",
+  "name": "@xufeng-li/util",
   "version": "0.0.2",
   "description": "this util for taskbox demo.",
   "keywords": [
@@ -37,5 +37,6 @@
   "dependencies": {
     "mathjs": "^9.2.0",
     "qs": "^6.9.6"
-  }
+  },
+  "gitHead": "75a5264c34ecab011cf458595088cb3b4c7fc9fd"
 }
