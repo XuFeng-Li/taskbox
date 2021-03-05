@@ -1,0 +1,37 @@
+{
+  "name": "@taskboxdemo/util",
+  "version": "0.0.1",
+  "description": "this util for taskbox demo.",
+  "keywords": [
+    "util"
+  ],
+  "author": "李旭峰 <lxf@asman.com.cn>",
+  "homepage": "https://github.com/XuFeng-Li/taskbox#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "min": "dist/index.min.js",
+  "module": "dist/es/index.es.js",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XuFeng-Li/taskbox.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c ../../rollup.config.js",
+    "module": "dist/es/index.es.js",
+    "rollup": "rollup -c ../../rollup.config.js"
+  },
+  "bugs": {
+    "url": "https://github.com/XuFeng-Li/taskbox/issues"
+  }
+}
