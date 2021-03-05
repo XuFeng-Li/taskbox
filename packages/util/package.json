@@ -1,9 +1,9 @@
 {
-  "name": "xf-storybook-demo-task",
-  "version": "0.0.3",
-  "description": "this is task package for task",
+  "name": "@xufeng-li/util",
+  "version": "0.0.5",
+  "description": "this util for taskbox demo.",
   "keywords": [
-    "task"
+    "util"
   ],
   "author": "李旭峰 <lxf@asman.com.cn>",
   "homepage": "https://github.com/XuFeng-Li/taskbox#readme",
@@ -19,7 +19,8 @@
     "src"
   ],
   "publishConfig": {
-    "registry": "http://registry.npmjs.org/"
+    "registry": "http://registry.npmjs.org/",
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -35,11 +36,8 @@
     "url": "https://github.com/XuFeng-Li/taskbox/issues"
   },
   "dependencies": {
-    "prop-types": "^15.7.2"
+    "mathjs": "^9.2.0",
+    "qs": "^6.9.6"
   },
-  "peerDependencies": {
-    "antd": "^3.35.3",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0"
-  }
+  "gitHead": "791f761f481ad059aced5856f9b8beb2678f95c8"
 }

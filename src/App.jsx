@@ -1,12 +1,13 @@
 import React from "react";
 // import { Provider } from "react-redux";
-import logo from './logo.svg';
+// import logo from './logo.svg';
 // import store from "./store/redux";
 
 // import InboxScreen from './components/inboxScreen/InboxScreen';
 // import logo from './logo.svg';
 import './App.css';
-import {XFStoryBookDemoTask} from "xf-storybook-demo-task";
+import {XFStoryBookDemoTask} from "xf-storybook-demo-task";// @ts-ignore
+import TsxTasx from "./components/tsxtask/TsxTask";
 
 function App() {
   const task = {
@@ -17,7 +18,7 @@ function App() {
   };
   return (
     <div className="App">
-      <header className="App-header">
+      {/*<header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.
@@ -30,9 +31,18 @@ function App() {
         >
           Learn React
         </a>
-      </header>
+      </header>*/}
       <body>
       <XFStoryBookDemoTask
+        task={task}
+        onArchiveTask={(id)=>{
+          console.log(`on archive task,id is - ${id}`);
+        }}
+        onPinTask={(id) => {
+          console.log(`on pin task,id is - ${id}`);
+        }}
+      />
+      <TsxTasx
         task={task}
         onArchiveTask={(id)=>{
           console.log(`on archive task,id is - ${id}`);

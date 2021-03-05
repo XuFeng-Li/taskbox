@@ -21,7 +21,7 @@ const externals = [
 ];
 
 export default {
-  input: 'src/index.js',
+  input: 'src/FormatWan.js',
   external: externals,  // 需要处理成外部包引用列表
   output: [
     {
