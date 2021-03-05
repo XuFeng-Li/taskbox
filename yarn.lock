@@ -31,6 +31,13 @@
   dependencies:
     tinycolor2 "^1.4.1"
 
+"@ant-design/colors@^6.0.0":
+  version "6.0.0"
+  resolved "https://registry.npmjs.org/@ant-design/colors/-/colors-6.0.0.tgz#9b9366257cffcc47db42b9d0203bb592c13c0298"
+  integrity sha512-qAZRvPzfdWHtfameEGP2Qvuf838NhergR35o+EuVyB5XvSA98xod5r4utvi4TJ3ywmevm290g9nsCG5MryrdWQ==
+  dependencies:
+    "@ctrl/tinycolor" "^3.4.0"
+
 "@ant-design/create-react-context@^0.2.4":
   version "0.2.5"
   resolved "https://registry.npmjs.org/@ant-design/create-react-context/-/create-react-context-0.2.5.tgz#f5f5a9163b4772097712837397ad30e22e79f858"
@@ -51,6 +58,23 @@
   dependencies:
     "@ant-design/colors" "^3.1.0"
     babel-runtime "^6.26.0"
+
+"@ant-design/icons-svg@^4.0.0":
+  version "4.1.0"
+  resolved "https://registry.npmjs.org/@ant-design/icons-svg/-/icons-svg-4.1.0.tgz#480b025f4b20ef7fe8f47d4a4846e4fee84ea06c"
+  integrity sha512-Fi03PfuUqRs76aI3UWYpP864lkrfPo0hluwGqh7NJdLhvH4iRDc3jbJqZIvRDLHKbXrvAfPPV3+zjUccfFvWOQ==
+
+"@ant-design/icons@^4.0.0-rc.0":
+  version "4.5.0"
+  resolved "https://registry.npmjs.org/@ant-design/icons/-/icons-4.5.0.tgz#dc5ceff85503932265143dc5c3013167daa3f754"
+  integrity sha512-ZAKJcmr4DBV3NWr8wm2dCxNKN4eFrX+qCaPsuFejP6FRsf+m5OKxvCVi9bSp1lmKWeOI5yECAx5s0uFm4QHuPw==
+  dependencies:
+    "@ant-design/colors" "^6.0.0"
+    "@ant-design/icons-svg" "^4.0.0"
+    "@babel/runtime" "^7.11.2"
+    classnames "^2.2.6"
+    insert-css "^2.0.0"
+    rc-util "^5.0.1"
 
 "@ant-design/icons@~2.1.1":
   version "2.1.1"
@@ -1273,7 +1297,7 @@
   dependencies:
     regenerator-runtime "^0.13.4"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.3.1", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.10.2", "@babel/runtime@^7.11.2", "@babel/runtime@^7.12.1", "@babel/runtime@^7.12.13", "@babel/runtime@^7.12.5", "@babel/runtime@^7.3.1", "@babel/runtime@^7.3.4", "@babel/runtime@^7.4.5", "@babel/runtime@^7.5.0", "@babel/runtime@^7.5.5", "@babel/runtime@^7.7.2", "@babel/runtime@^7.7.6", "@babel/runtime@^7.8.4", "@babel/runtime@^7.9.2":
   version "7.13.9"
   resolved "https://registry.npmjs.org/@babel/runtime/-/runtime-7.13.9.tgz#97dbe2116e2630c489f22e0656decd60aaa1fcee"
   integrity sha512-aY2kU+xgJ3dJ1eU6FMB9EH8dIe8dmusF1xEku52joLvw6eAFN0AI+WxCLDnpev2LEejWBAy2sBvBOBAjI3zmvA==
@@ -1345,6 +1369,11 @@
   version "9.0.1"
   resolved "https://registry.npmjs.org/@csstools/normalize.css/-/normalize.css-9.0.1.tgz#c27b391d8457d1e893f1eddeaf5e5412d12ffbb5"
   integrity sha512-6It2EVfGskxZCQhuykrfnALg7oVeiI6KclWSmGDqB0AiInVrTGB9Jp9i4/Ad21u9Jde/voVQz6eFX/eSg/UsPA==
+
+"@ctrl/tinycolor@^3.4.0":
+  version "3.4.0"
+  resolved "https://registry.npmjs.org/@ctrl/tinycolor/-/tinycolor-3.4.0.tgz#c3c5ae543c897caa9c2a68630bed355be5f9990f"
+  integrity sha512-JZButFdZ1+/xAfpguQHoabIXkcqRRKpMrWKBkpEZZyxfY9C1DpADFB8PEqGSTeFr135SaTRfKqGKx5xSCLI7ZQ==
 
 "@discoveryjs/json-ext@^0.5.0":
   version "0.5.2"
@@ -1526,6 +1555,86 @@
     tar "^4.4.10"
     unique-filename "^1.1.1"
     which "^1.3.1"
+
+"@formily/antd-components@^1.0.0":
+  version "1.3.12"
+  resolved "https://registry.npmjs.org/@formily/antd-components/-/antd-components-1.3.12.tgz#1499502484ffd0a0fe67e9a29b5ad9e22f748667"
+  integrity sha512-r2ILnx87DSUb/st60Q4GGlUmw1D+BehtF8IJtLWaAwWklhISH60/hb0kUL9M5meUfRr8MOBS7diDPCQSB/GXUA==
+  dependencies:
+    "@ant-design/icons" "^4.0.0-rc.0"
+    "@formily/antd" "^1.3.12"
+    "@formily/react-schema-renderer" "^1.3.12"
+    "@formily/react-shared-components" "^1.3.12"
+    "@formily/shared" "^1.3.12"
+    classnames "^2.2.6"
+
+"@formily/antd@^1.0.0", "@formily/antd@^1.3.12":
+  version "1.3.12"
+  resolved "https://registry.npmjs.org/@formily/antd/-/antd-1.3.12.tgz#2011f4137fbee07c4f06a0946ec103d5b67438eb"
+  integrity sha512-3qSJTp1FIIlQ79wlsFywQBmDlxIOprYuhIykdUiV3P6vquQg3xxRw+6LD+j8C5wXpEEJeHKk3boRFkU0QWAZOw==
+  dependencies:
+    "@formily/react-schema-renderer" "^1.3.12"
+    "@formily/react-shared-components" "^1.3.12"
+    "@formily/shared" "^1.3.12"
+    classnames "^2.2.6"
+    react-eva "^1.0.0-alpha.0"
+    react-stikky "^0.1.15"
+    rxjs "^6.5.1"
+
+"@formily/core@^1.3.12":
+  version "1.3.12"
+  resolved "https://registry.npmjs.org/@formily/core/-/core-1.3.12.tgz#f8c77918833ce89e8cdc76d2c6c7ff45f1c545a9"
+  integrity sha512-2RWIBMWE5u9jAyomBGy1goFpOFFzffT0t6piaHtX6soWG5yE1B6/LQD+UYhA8UiAOKX/uzx/WgLjjuT1DX4lGA==
+  dependencies:
+    "@formily/shared" "^1.3.12"
+    "@formily/validator" "^1.3.12"
+    immer "^6.0.3"
+
+"@formily/react-schema-renderer@^1.0.0", "@formily/react-schema-renderer@^1.3.12":
+  version "1.3.12"
+  resolved "https://registry.npmjs.org/@formily/react-schema-renderer/-/react-schema-renderer-1.3.12.tgz#eecb14a5f8985ed561cac28d9018a537283b60f0"
+  integrity sha512-QqIgnkutsYfM4nG8sJtoZkstzNcPERRlRPNdC4I0BYW1JQcKzTHHrRJ2xZSbhxW73Zm06HgfRKnBeO2JTUnffA==
+  dependencies:
+    "@formily/core" "^1.3.12"
+    "@formily/react" "^1.3.12"
+    "@formily/shared" "^1.3.12"
+    "@formily/validator" "^1.3.12"
+    hoist-non-react-statics "^3.3.2"
+    pascal-case "^2.0.1"
+
+"@formily/react-shared-components@^1.3.12":
+  version "1.3.12"
+  resolved "https://registry.npmjs.org/@formily/react-shared-components/-/react-shared-components-1.3.12.tgz#66987793b33e66d4e0e08947da2821af781c2db6"
+  integrity sha512-STG4f29NUyZssxSTSgBjvh6giV04R3PKp3lAZidtweAmJqjMBqz/QCxoZeyrC5eh/BomtHQCrDGm33LdDN9kKg==
+  dependencies:
+    "@formily/shared" "^1.3.12"
+    react-drag-listview "^0.1.6"
+
+"@formily/react@^1.0.0", "@formily/react@^1.3.12":
+  version "1.3.12"
+  resolved "https://registry.npmjs.org/@formily/react/-/react-1.3.12.tgz#de93a0d8ccc78b590e616b5a62afb97489ddc522"
+  integrity sha512-7aLFaodTkRk2z2gCYfR1XS+5ouEFp7c1Rd7tpLx9RapEH6Mcf66mH5UWNRT2VJ9jlPGiVH9rj3w+4jlEfYB/zQ==
+  dependencies:
+    "@formily/core" "^1.3.12"
+    "@formily/shared" "^1.3.12"
+
+"@formily/shared@^1.3.12":
+  version "1.3.12"
+  resolved "https://registry.npmjs.org/@formily/shared/-/shared-1.3.12.tgz#61165a922423479095640af17f5f2fe5aa8f9327"
+  integrity sha512-wdo50HXMyfX+XR8R34KR5jECsiWCGewxoGRaarl21gQq+9msuc7KHUdwUPfRkjztwRA6MSQJ1S4go6yhVPsRlg==
+  dependencies:
+    camel-case "~3.0.0"
+    cool-path "^0.1.31"
+    lower-case "~1.1.4"
+    scheduler "~0.19.0"
+    upper-case "~1.1.3"
+
+"@formily/validator@^1.3.12":
+  version "1.3.12"
+  resolved "https://registry.npmjs.org/@formily/validator/-/validator-1.3.12.tgz#2680e7ea3c0654f9b8d62ab19e7206a2674f2300"
+  integrity sha512-6A/7tPNycgTgcm6Vc1EYI0N7+cIcxkFZoimXE0zthFM6rXPa5ihUwrkgtUKG/janqrV6jYUsW7lblwmaY9QAUg==
+  dependencies:
+    "@formily/shared" "^1.3.12"
 
 "@hapi/address@2.x.x":
   version "2.1.4"
@@ -3922,6 +4031,28 @@
     semver "^7.3.2"
     tsutils "^3.17.1"
 
+"@uform/antd@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/@uform/antd/-/antd-1.0.5.tgz#7ee4ac78dd9186bc7f99370f645cd688f3f122aa"
+  integrity sha512-POh8QizP3I4j/Kngt1Rgqag+EFEBPqxuLtHRmaOw02mdVS8tbHtafc5Qv1+bUPCzTEKFg5CbVDlYE+xJqLWHzw==
+  dependencies:
+    "@formily/antd" "^1.0.0"
+    "@formily/antd-components" "^1.0.0"
+
+"@uform/react-schema-renderer@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/@uform/react-schema-renderer/-/react-schema-renderer-1.0.5.tgz#8e07fa9ef35cfc9d94dafe5618588bf4c404d3da"
+  integrity sha512-t/M5HE0rYirMYq+RMoOTRpbwr4cWq23W5wf4sg9RnVCu70uWH0QwBKkEtGvhNOelvLYtBL1TJuWWo9g871rfbA==
+  dependencies:
+    "@formily/react-schema-renderer" "^1.0.0"
+
+"@uform/react@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.npmjs.org/@uform/react/-/react-1.0.5.tgz#b3d1aea6546b2d62179d6c05abebacd57ed41029"
+  integrity sha512-i30/eKRLkQkLgBNaq/LV+NiCe4KXY7+5nUuuEx9hndVycftYwtLKUfJFWD/x5z6QgDVQ0TghykEueaVu09Ns0g==
+  dependencies:
+    "@formily/react" "^1.0.0"
+
 "@webassemblyjs/ast@1.8.5":
   version "1.8.5"
   resolved "https://registry.npmjs.org/@webassemblyjs/ast/-/ast-1.8.5.tgz#51b1c5fe6576a34953bf4b253df9f0d490d9e359"
@@ -5840,7 +5971,7 @@ callsites@^3.0.0:
   resolved "https://registry.npmjs.org/callsites/-/callsites-3.1.0.tgz#b3630abd8943432f54b3f0519238e33cd7df2f73"
   integrity sha512-P8BjAsXvZS+VIDUI11hHCQEv74YT67YUi5JJFNWIqL235sBmjX4+qx9Muvls5ivyNENctx46xQLQ3aTuE7ssaQ==
 
-camel-case@3.0.x:
+camel-case@3.0.x, camel-case@^3.0.0, camel-case@~3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/camel-case/-/camel-case-3.0.0.tgz#ca3c3688a4e9cf3a4cda777dc4dcbc713249cf73"
   integrity sha1-yjw2iKTpzzpM2nd9xNy8cTJJz3M=
@@ -6652,6 +6783,11 @@ cookie@0.4.0:
   version "0.4.0"
   resolved "https://registry.npmjs.org/cookie/-/cookie-0.4.0.tgz#beb437e7022b3b6d49019d088665303ebe9c14ba"
   integrity sha512-+Hp8fLp57wnUSt0tY0tHEXh4voZRDnoIrZPqlo3DPiI4y9lwg/jqx+1Om94/W6ZaPDOUbnjOt/99w66zk+l1Xg==
+
+cool-path@^0.1.31:
+  version "0.1.32"
+  resolved "https://registry.npmjs.org/cool-path/-/cool-path-0.1.32.tgz#abc427e612570602015af12b507596c270be760b"
+  integrity sha512-u8xxIqRoOP12uML/H3prx6kOhg+XxyIumz7nn6Kn2k/6sZ8BD4YyomPGGiiZhk0OObjY7QijmZJPskzUaSA8GA==
 
 copy-anything@^2.0.1:
   version "2.0.3"
@@ -9987,6 +10123,11 @@ immer@8.0.1:
   resolved "https://registry.npmjs.org/immer/-/immer-8.0.1.tgz#9c73db683e2b3975c424fb0572af5889877ae656"
   integrity sha512-aqXhGP7//Gui2+UrEtvxZxSquQVXTpZ7KDxfCcKAF3Vysvw0CViVaW9RZ1j1xlIYqaaaipBoqdqeibkc18PNvA==
 
+immer@^6.0.3:
+  version "6.0.9"
+  resolved "https://registry.npmjs.org/immer/-/immer-6.0.9.tgz#b9dd69b8e69b3a12391e87db1e3ff535d1b26485"
+  integrity sha512-SyCYnAuiRf67Lvk0VkwFvwtDoEiCMjeamnHvRfnVDyc7re1/rQrNxuL+jJ7lA3WvdC4uznrvbmm+clJ9+XXatg==
+
 immutable@^3.7.4:
   version "3.8.2"
   resolved "https://registry.npmjs.org/immutable/-/immutable-3.8.2.tgz#c2439951455bb39913daf281376f1530e104adf3"
@@ -10216,6 +10357,11 @@ inquirer@^7.0.0:
     string-width "^4.1.0"
     strip-ansi "^6.0.0"
     through "^2.3.6"
+
+insert-css@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.npmjs.org/insert-css/-/insert-css-2.0.0.tgz#eb5d1097b7542f4c79ea3060d3aee07d053880f4"
+  integrity sha1-610Ql7dUL0x56jBg067gfQU4gPQ=
 
 internal-ip@^4.2.0:
   version "4.3.0"
@@ -12092,7 +12238,7 @@ loud-rejection@^1.0.0:
     currently-unhandled "^0.4.1"
     signal-exit "^3.0.0"
 
-lower-case@^1.1.1:
+lower-case@^1.1.1, lower-case@~1.1.4:
   version "1.1.4"
   resolved "https://registry.npmjs.org/lower-case/-/lower-case-1.1.4.tgz#9a2cabd1b9e8e0ae993a4bf7d5875c39c42e8eac"
   integrity sha1-miyr0bno4K6ZOkv31YdcOcQujqw=
@@ -13714,6 +13860,14 @@ parseurl@~1.3.2, parseurl@~1.3.3:
   version "1.3.3"
   resolved "https://registry.npmjs.org/parseurl/-/parseurl-1.3.3.tgz#9da19e7bee8d12dff0513ed5b76957793bc2e8d4"
   integrity sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==
+
+pascal-case@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.npmjs.org/pascal-case/-/pascal-case-2.0.1.tgz#2d578d3455f660da65eca18ef95b4e0de912761e"
+  integrity sha1-LVeNNFX2YNpl7KGO+VtODekSdh4=
+  dependencies:
+    camel-case "^3.0.0"
+    upper-case-first "^1.1.0"
 
 pascal-case@^3.1.2:
   version "3.1.2"
@@ -15542,6 +15696,15 @@ rc-util@^4.0.4, rc-util@^4.1.1, rc-util@^4.13.0, rc-util@^4.15.3, rc-util@^4.15.
     react-lifecycles-compat "^3.0.4"
     shallowequal "^1.1.0"
 
+rc-util@^5.0.1:
+  version "5.8.1"
+  resolved "https://registry.npmjs.org/rc-util/-/rc-util-5.8.1.tgz#e3630abfb92b40becb31476cee136d65e80e02e0"
+  integrity sha512-kXV/QjL+azh3AxMk68gm8+nltVoL6bjeJJULAZLRCLus2Fhvo/aaMZokxYov/E0dbfjo31I78pF4yVljqQB7bA==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    react-is "^16.12.0"
+    shallowequal "^1.1.0"
+
 react-app-polyfill@^1.0.4:
   version "1.0.6"
   resolved "https://registry.npmjs.org/react-app-polyfill/-/react-app-polyfill-1.0.6.tgz#890f8d7f2842ce6073f030b117de9130a5f385f0"
@@ -15705,6 +15868,14 @@ react-dom@^16.11.0, react-dom@^16.8.3:
     prop-types "^15.6.2"
     scheduler "^0.19.1"
 
+react-drag-listview@^0.1.6:
+  version "0.1.8"
+  resolved "https://registry.npmjs.org/react-drag-listview/-/react-drag-listview-0.1.8.tgz#e04de326ecbe97d6ad84fb68664e405765e30d72"
+  integrity sha512-ZJnjFEz89RPZ1DzI8f6LngmtsmJbLry/pMz2tEqABxHA+d8cUFRmVPS1DxZdoz/htc+uri9fCdv4dqIiPz0xIA==
+  dependencies:
+    babel-runtime "^6.26.0"
+    prop-types "^15.5.8"
+
 react-draggable@^4.0.3:
   version "4.4.3"
   resolved "https://registry.npmjs.org/react-draggable/-/react-draggable-4.4.3.tgz#0727f2cae5813e36b0e4962bf11b2f9ef2b406f3"
@@ -15725,6 +15896,14 @@ react-error-overlay@^6.0.3, react-error-overlay@^6.0.7, react-error-overlay@^6.0
   version "6.0.9"
   resolved "https://registry.npmjs.org/react-error-overlay/-/react-error-overlay-6.0.9.tgz#3c743010c9359608c375ecd6bc76f35d93995b0a"
   integrity sha512-nQTTcUu+ATDbrSD1BZHr5kgSD4oF8OFjxun8uAaL8RwPBacGBNPf/yAuVVdx17N8XNzRDMrZ9XcKZHCjPW+9ew==
+
+react-eva@^1.0.0-alpha.0:
+  version "1.1.14"
+  resolved "https://registry.npmjs.org/react-eva/-/react-eva-1.1.14.tgz#06e3953886cde47636fdd976b6183a851ee18202"
+  integrity sha512-/5EeqL425sgDX0yhtNIoJh0kdjt1i/FFwh0OcnEZri83FIGNzaAXmNm7lbnSd2wvedgJ1/qnYPcOz5HuF2UvBA==
+  dependencies:
+    rxjs "^6.3.3"
+    rxjs-compat "^6.6.3"
 
 react-fast-compare@^3.0.1, react-fast-compare@^3.2.0:
   version "3.2.0"
@@ -15938,6 +16117,14 @@ react-slick@~0.25.2:
     json2mq "^0.2.0"
     lodash.debounce "^4.0.8"
     resize-observer-polyfill "^1.5.0"
+
+react-stikky@^0.1.15:
+  version "0.1.30"
+  resolved "https://registry.npmjs.org/react-stikky/-/react-stikky-0.1.30.tgz#20b159455fc7d28a26b48e25319b70a3129f680e"
+  integrity sha512-qzt3MF/t3VoXLPQl4AY6+0jIdIIA9LdZgxwjniYWLWgPxPHGzbkxHOSlYAs+JrEm//9mxFCwS2i2kEUKrS3ewA==
+  dependencies:
+    classnames "^2.2.6"
+    window-scroll "^1.0.0"
 
 react-syntax-highlighter@^11.0.2:
   version "11.0.2"
@@ -16841,7 +17028,12 @@ run-queue@^1.0.0, run-queue@^1.0.3:
   dependencies:
     aproba "^1.1.1"
 
-rxjs@^6.3.3, rxjs@^6.4.0, rxjs@^6.5.3, rxjs@^6.6.0:
+rxjs-compat@^6.6.3:
+  version "6.6.6"
+  resolved "https://registry.npmjs.org/rxjs-compat/-/rxjs-compat-6.6.6.tgz#5fc76a1ff1e6a3f3c5c773826b2ae1deea51da80"
+  integrity sha512-P6JOpjCYUBdXLMktko0a6JHltGaktFJA2W3DWDIjc+I9x9IwRQprOrHQf/fIykY3wAaSbbZIt6GASGMVC1mGfQ==
+
+rxjs@^6.3.3, rxjs@^6.4.0, rxjs@^6.5.1, rxjs@^6.5.3, rxjs@^6.6.0:
   version "6.6.6"
   resolved "https://registry.npmjs.org/rxjs/-/rxjs-6.6.6.tgz#14d8417aa5a07c5e633995b525e1e3c0dec03b70"
   integrity sha512-/oTwee4N4iWzAMAL9xdGKjkEHmIwupR3oXbQjCKywF1BeFohswF3vZdogbmEF6pZkOsXTzWkrZszrWpQTByYVg==
@@ -16918,7 +17110,7 @@ saxes@^3.1.9:
   dependencies:
     xmlchars "^2.1.1"
 
-scheduler@^0.19.1:
+scheduler@^0.19.1, scheduler@~0.19.0:
   version "0.19.1"
   resolved "https://registry.npmjs.org/scheduler/-/scheduler-0.19.1.tgz#4f3e2ed2c1a7d65681f4c854fa8c5a1ccb40f196"
   integrity sha512-n/zwRWRYSUj0/3g/otKDRPMh6qv2SYMWNq85IEa8iZyAv8od9zDYpGSnpBEjNgcMNq6Scbu5KfIPxNF72R/2EA==
@@ -18754,7 +18946,14 @@ upath@^1.1.1, upath@^1.2.0:
   resolved "https://registry.npmjs.org/upath/-/upath-1.2.0.tgz#8f66dbcd55a883acdae4408af8b035a5044c1894"
   integrity sha512-aZwGpamFO61g3OlfT7OQCHqhGnW43ieH9WZeP7QxN/G/jS4jfqUkZxoryvJgVPEcrl5NL/ggHsSmLMHuH64Lhg==
 
-upper-case@^1.1.1:
+upper-case-first@^1.1.0:
+  version "1.1.2"
+  resolved "https://registry.npmjs.org/upper-case-first/-/upper-case-first-1.1.2.tgz#5d79bedcff14419518fd2edb0a0507c9b6859115"
+  integrity sha1-XXm+3P8UQZUY/S7bCgUHybaFkRU=
+  dependencies:
+    upper-case "^1.1.1"
+
+upper-case@^1.1.1, upper-case@~1.1.3:
   version "1.1.3"
   resolved "https://registry.npmjs.org/upper-case/-/upper-case-1.1.3.tgz#f6b4501c2ec4cdd26ba78be7222961de77621598"
   integrity sha1-9rRQHC7EzdJrp4vnIilh3ndiFZg=
@@ -19344,6 +19543,11 @@ wildcard@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/wildcard/-/wildcard-2.0.0.tgz#a77d20e5200c6faaac979e4b3aadc7b3dd7f8fec"
   integrity sha512-JcKqAHLPxcdb9KM49dufGXn2x3ssnfjbcaQdLlfZsL9rH9wgDQjUtDxbo8NE0F6SFvydeu1VhZe7hZuHsB2/pw==
+
+window-scroll@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.npmjs.org/window-scroll/-/window-scroll-1.0.0.tgz#6c0c48c6208f9061ed90e10f658913a991b18987"
+  integrity sha1-bAxIxiCPkGHtkOEPZYkTqZGxiYc=
 
 windows-release@^3.1.0:
   version "3.3.3"
