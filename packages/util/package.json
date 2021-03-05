@@ -19,7 +19,8 @@
     "src"
   ],
   "publishConfig": {
-    "registry": "http://registry.npmjs.org/"
+    "registry": "http://registry.npmjs.org/",
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -38,5 +39,5 @@
     "mathjs": "^9.2.0",
     "qs": "^6.9.6"
   },
-  "gitHead": "75a5264c34ecab011cf458595088cb3b4c7fc9fd"
+  "gitHead": "791f761f481ad059aced5856f9b8beb2678f95c8"
 }
