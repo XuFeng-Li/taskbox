@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@xufeng-li/util@^0.0.8":
-  version "0.0.8"
-  resolved "https://registry.npmjs.org/@xufeng-li/util/-/util-0.0.8.tgz#d8569a911ce47a20801fce2adad3c0bbdb33fee1"
-  integrity sha512-l4n4tkHu/KPAQE3SKMquPldEg+gDaojkqoi9mQ+bvlXNYNwhP92V0MG2dEPdOK3mIsQ2EMkaBZ5JC5uPruZr+Q==
+"@xufeng-li/util@^0.0.9":
+  version "0.0.9"
+  resolved "https://registry.npmjs.org/@xufeng-li/util/-/util-0.0.9.tgz#ff0c90d1cbff23cd5bee507bf19fe0c863c392a7"
+  integrity sha512-I/7SyPHPrWdIfHO65DvT4VXerq55D53m4qk97tHsjQiklEdFgNffktvR+Msf/9fBH6fYmCNvtF9ZD3pSWs0eLg==
   dependencies:
     mathjs "^9.2.0"
     qs "^6.9.6"
