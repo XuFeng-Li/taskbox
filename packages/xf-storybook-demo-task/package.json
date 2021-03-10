@@ -11,6 +11,7 @@
   "main": "dist/index.js",
   "min": "dist/index.min.js",
   "module": "dist/es/index.es.js",
+  "types": "dist/types",
   "directories": {
     "lib": "src",
     "test": "__tests__"
