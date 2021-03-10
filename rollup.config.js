@@ -39,7 +39,7 @@ if (pkg.module) {
     ...output,
     {
       file: pkg.module,
-      format: 'esm',
+      format: 'es',
       sourcemap: false,
     }
   ];

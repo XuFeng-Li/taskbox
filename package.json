@@ -5,7 +5,7 @@
   "main": "dist/index.js",
   "min": "dist/index.min.js",
   "minName": "taskbox",
-  "module": "dist/esm/index.es.js",
+  "module": "dist/es/index.es.js",
   "types": "dist/types",
   "dependencies": {
     "@types/react": "^17.0.3",

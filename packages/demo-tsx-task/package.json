@@ -10,7 +10,7 @@
   "license": "ISC",
   "inputFile": "src/index.ts",
   "main": "dist/index.js",
-  "module": "dist/esm/index.esm.js",
+  "module": "dist/es/index.es.js",
   "min": "dist/index.min.js",
   "minName": "DemoTsxTask",
   "types": "dist/types",
