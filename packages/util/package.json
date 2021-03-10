@@ -13,10 +13,6 @@
   "min": "dist/index.min.js",
   "minName": "util",
   "types": "dist/types",
-  "directories": {
-    "lib": "src",
-    "test": "__tests__"
-  },
   "files": [
     "src",
     "dist"
