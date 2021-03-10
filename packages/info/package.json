@@ -1,6 +1,6 @@
 {
   "name": "@xufeng-li/info",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "this info package",
   "keywords": [
     "info"
@@ -43,7 +43,7 @@
     "react-dom": "^17.0.1"
   },
   "dependencies": {
-    "@xufeng-li/util": "^0.0.5",
+    "@xufeng-li/util": "^0.0.6",
     "prop-types": "^15.7.2"
   }
 }

@@ -1,6 +1,6 @@
 {
   "name": "@xufeng-li/demo-tsx-task",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "this taskbox package for with tsx.",
   "keywords": [
     "taskbox"
