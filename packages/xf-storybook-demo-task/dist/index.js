@@ -73,4 +73,4 @@ XFStoryBookDemoTask.propTypes = {
 };
 
 exports.XFStoryBookDemoTask = XFStoryBookDemoTask;
-//# sourceMappingURL=FormatWan.js.map
+//# sourceMappingURL=index.js.map
