@@ -5,7 +5,7 @@
 ## Usage
 
 ```
-const demoTsxTask = require('@xufeng-li/demo-tsx-task');
+const index = require('@xufeng-li/demo-tsx-task');
 
 // TODO: DEMONSTRATE API
 ```

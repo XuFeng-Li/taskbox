@@ -19,6 +19,8 @@ const externals = [
   ...Object.keys(pkg.peerDependencies || {}),
   ...Object.keys(pkg.dependencies || {}),
 ];
+
+const input = pkg.inputFile || "src/index.js";
 var output = [];
 if (pkg.main) {
   output = [
@@ -62,7 +64,7 @@ if (pkg.min && pkg.minName) {
 }
 
 export default {
-  input: 'src/index.js',
+  input: input,
   external: externals,  // 需要处理成外部包引用列表
   output: output,
   plugins: [
