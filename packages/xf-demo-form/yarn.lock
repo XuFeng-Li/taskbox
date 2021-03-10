@@ -2,10 +2,10 @@
 # yarn lockfile v1
 
 
-"@xufeng-li/util@^0.0.7":
-  version "0.0.7"
-  resolved "https://registry.npmjs.org/@xufeng-li/util/-/util-0.0.7.tgz#02d121d3ce3fd30235fc5f46ca922da2131f790b"
-  integrity sha512-w0kJXkyl/oYGYi5idjPV7cb/t9LzMyOlJcccIG6nxpVoxtopPHwVF+vbQfGIHXcULYrQ9PxR2sh53a7sc/GEqA==
+"@xufeng-li/util@^0.0.8":
+  version "0.0.8"
+  resolved "https://registry.npmjs.org/@xufeng-li/util/-/util-0.0.8.tgz#d8569a911ce47a20801fce2adad3c0bbdb33fee1"
+  integrity sha512-l4n4tkHu/KPAQE3SKMquPldEg+gDaojkqoi9mQ+bvlXNYNwhP92V0MG2dEPdOK3mIsQ2EMkaBZ5JC5uPruZr+Q==
   dependencies:
     mathjs "^9.2.0"
     qs "^6.9.6"
@@ -24,11 +24,6 @@ escape-latex@^1.2.0:
   version "1.2.0"
   resolved "https://registry.npmjs.org/escape-latex/-/escape-latex-1.2.0.tgz#07c03818cf7dac250cce517f4fda1b001ef2bca1"
   integrity sha512-nV5aVWW1K0wEiUIEdZ4erkGGH8mDxGyxSeqPzRNtWP7ataw+/olFObw7hujFWlVjNsaDFw5VZ5NzVSIqRgfTiw==
-
-fetch-jsonp@^1.0.3:
-  version "1.1.3"
-  resolved "https://registry.npmjs.org/fetch-jsonp/-/fetch-jsonp-1.1.3.tgz#9eb9e585ba08aaf700563538d17bbebbcd5a3db2"
-  integrity sha1-nrnlhboIqvcAVjU40Xu+u81aPbI=
 
 fraction.js@^4.0.13:
   version "4.0.13"
@@ -66,18 +61,7 @@ mathjs@^9.2.0:
     tiny-emitter "^2.1.0"
     typed-function "^2.0.0"
 
-mfetch@^0.2.27:
-  version "0.2.27"
-  resolved "https://registry.npmjs.org/mfetch/-/mfetch-0.2.27.tgz#6d50dc71e2e486030b05741d1c37c552d319bf10"
-  integrity sha512-BoYzvjhYeGOi5e1OAU0uqIxnZwG4ZUydd4geh3hB13txKGCoaUpgasMouxpfgLz/UNnCK/V37eRMIqhlZNXkfQ==
-  dependencies:
-    fetch-jsonp "^1.0.3"
-    query-string "^4.2.3"
-    recursive-iterator "^2.0.3"
-    super-plugin "^0.1.0"
-    uri-templates "^0.2.0"
-
-object-assign@^4.1.0, object-assign@^4.1.1:
+object-assign@^4.1.1:
   version "4.1.1"
   resolved "https://registry.npmjs.org/object-assign/-/object-assign-4.1.1.tgz#2109adc7965887cfc05cbbd442cac8bfbb360863"
   integrity sha1-IQmtx5ZYh8/AXLvUQsrIv7s2CGM=
@@ -96,38 +80,15 @@ qs@^6.9.6:
   resolved "https://registry.npmjs.org/qs/-/qs-6.9.6.tgz#26ed3c8243a431b2924aca84cc90471f35d5a0ee"
   integrity sha512-TIRk4aqYLNoJUbd+g2lEdz5kLWIuTMRagAXxl78Q0RiVjAOugHmeKNGdd3cwo/ktpf9aL9epCfFqWDEKysUlLQ==
 
-query-string@^4.2.3:
-  version "4.3.4"
-  resolved "https://registry.npmjs.org/query-string/-/query-string-4.3.4.tgz#bbb693b9ca915c232515b228b1a02b609043dbeb"
-  integrity sha1-u7aTucqRXCMlFbIosaArYJBD2+s=
-  dependencies:
-    object-assign "^4.1.0"
-    strict-uri-encode "^1.0.0"
-
 react-is@^16.8.1:
   version "16.13.1"
   resolved "https://registry.npmjs.org/react-is/-/react-is-16.13.1.tgz#789729a4dc36de2999dc156dd6c1d9c18cea56a4"
   integrity sha512-24e6ynE2H+OKt4kqsOvNd8kBpV65zoxbA4BVsEOB3ARVWQki/DHzaUoC5KuON/BiccDaCCTZBuOcfZs70kR8bQ==
 
-recursive-iterator@^2.0.3:
-  version "2.0.3"
-  resolved "https://registry.npmjs.org/recursive-iterator/-/recursive-iterator-2.0.3.tgz#d0e0d2c7e7a83109d73091cf043fc509e5a76dc3"
-  integrity sha1-0ODSx+eoMQnXMJHPBD/FCeWnbcM=
-
 seedrandom@^3.0.5:
   version "3.0.5"
   resolved "https://registry.npmjs.org/seedrandom/-/seedrandom-3.0.5.tgz#54edc85c95222525b0c7a6f6b3543d8e0b3aa0a7"
   integrity sha512-8OwmbklUNzwezjGInmZ+2clQmExQPvomqjL7LFqOYqtmuxRgQYqOD3mHaU+MvZn5FLUeVxVfQjwLZW/n/JFuqg==
-
-strict-uri-encode@^1.0.0:
-  version "1.1.0"
-  resolved "https://registry.npmjs.org/strict-uri-encode/-/strict-uri-encode-1.1.0.tgz#279b225df1d582b1f54e65addd4352e18faa0713"
-  integrity sha1-J5siXfHVgrH1TmWt3UNS4Y+qBxM=
-
-super-plugin@^0.1.0:
-  version "0.1.6"
-  resolved "https://registry.npmjs.org/super-plugin/-/super-plugin-0.1.6.tgz#8f6a081afdd99ac6c8a6081db9db4efd64069b0c"
-  integrity sha1-j2oIGv3ZmsbIpggdudtO/WQGmww=
 
 tiny-emitter@^2.1.0:
   version "2.1.0"
@@ -138,8 +99,3 @@ typed-function@^2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/typed-function/-/typed-function-2.0.0.tgz#15ab3825845138a8b1113bd89e60cd6a435739e8"
   integrity sha512-Hhy1Iwo/e4AtLZNK10ewVVcP2UEs408DS35ubP825w/YgSBK1KVLwALvvIG4yX75QJrxjCpcWkzkVRB0BwwYlA==
-
-uri-templates@^0.2.0:
-  version "0.2.0"
-  resolved "https://registry.npmjs.org/uri-templates/-/uri-templates-0.2.0.tgz#2b5784511cc909868731e9233c268097d10b499f"
-  integrity sha1-K1eEURzJCYaHMekjPCaAl9ELSZ8=

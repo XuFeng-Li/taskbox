@@ -19857,10 +19857,10 @@ ws@^6.1.2:
   dependencies:
     async-limiter "~1.0.0"
 
-xf-storybook-demo-task@^0.0.5:
-  version "0.0.5"
-  resolved "https://registry.npmjs.org/xf-storybook-demo-task/-/xf-storybook-demo-task-0.0.5.tgz#c067c52fa60a09043efda7a24188c357a08b3ee8"
-  integrity sha512-KSQCx4jlIUQEhEl1JMy1VDVdEe0EsxtpK5ZVzVmgf4KXUdwhfLUfY2QEZtlRmXNuPLKxeITsvfy2lXjs9kR0NQ==
+xf-storybook-demo-task@^0.0.6:
+  version "0.0.6"
+  resolved "https://registry.npmjs.org/xf-storybook-demo-task/-/xf-storybook-demo-task-0.0.6.tgz#f4948a3a59ab37fb64aeba59e81e6f4ef65a9259"
+  integrity sha512-vPyr++iuZtndmiND1pqAoX8sHkL8czgR73dDgHI/+FgURa1I4Qo0t3Af3WM+2w+8eWL4dcItLOcHcUjvkg3IeQ==
   dependencies:
     prop-types "^15.7.2"
 

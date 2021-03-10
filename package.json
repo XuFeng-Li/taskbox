@@ -24,7 +24,7 @@
     "styled-components": "^5.2.1",
     "uglify-js": "^3.7.4",
     "web-vitals": "^1.1.0",
-    "xf-storybook-demo-task": "^0.0.5"
+    "xf-storybook-demo-task": "^0.0.6"
   },
   "scripts": {
     "start": "react-scripts start",

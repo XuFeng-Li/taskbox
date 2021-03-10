@@ -40,7 +40,6 @@
   },
   "dependencies": {
     "@xufeng-li/util": "^0.0.8",
-    "mfetch": "^0.2.27",
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {
@@ -49,6 +48,7 @@
     "@formily/printer": "^1.3.12",
     "antd": "^4.13.1",
     "moment": "^2.29.1",
+    "mfetch": "^0.2.27",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "styled-components": "^5.2.1"
