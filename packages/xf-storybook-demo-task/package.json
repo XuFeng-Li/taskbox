@@ -9,8 +9,9 @@
   "homepage": "https://github.com/XuFeng-Li/taskbox#readme",
   "license": "ISC",
   "main": "dist/index.js",
+  "module": "dist/esm/index.esm.js",
   "min": "dist/index.min.js",
-  "module": "dist/es/index.es.js",
+  "minName": "XFStorybookDemoTask",
   "types": "dist/types",
   "directories": {
     "lib": "src",
