@@ -6,7 +6,8 @@ import React from "react";
 // import InboxScreen from './components/inboxScreen/InboxScreen';
 // import logo from './logo.svg';
 import './App.css';
-import {XFStoryBookDemoTask} from "xf-storybook-demo-task";// @ts-ignore
+// @ts-ignore
+import {XFStoryBookDemoTask} from "xf-storybook-demo-task";
 import TsxTasx from "./components/tsxtask/TsxTask";
 
 function App() {
@@ -35,11 +36,11 @@ function App() {
       <body>
       <XFStoryBookDemoTask
         task={task}
-        onArchiveTask={(id)=>{
-          console.log(`on archive task,id is - ${id}`);
+        onArchiveTask={()=>{
+          console.log(`on archive task,id is - `);
         }}
-        onPinTask={(id) => {
-          console.log(`on pin task,id is - ${id}`);
+        onPinTask={() => {
+          console.log(`on pin task,id is - `);
         }}
       />
       <TsxTasx
