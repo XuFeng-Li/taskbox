@@ -22,7 +22,8 @@
     "src"
   ],
   "publishConfig": {
-    "registry": "http://registry.npmjs.org/"
+    "registry": "http://registry.npmjs.org/",
+    "access": "public"
   },
   "repository": {
     "type": "git",
@@ -36,5 +37,6 @@
   },
   "bugs": {
     "url": "https://github.com/XuFeng-Li/taskbox/issues"
-  }
+  },
+  "gitHead": "599c8b7d0a4d25e635eaac5fc6a03c596e14ebf6"
 }
