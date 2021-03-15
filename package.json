@@ -4,8 +4,12 @@
   "private": true,
   "main": "dist/index.js",
   "min": "dist/index.min.js",
+  "minName": "taskbox",
   "module": "dist/es/index.es.js",
+  "types": "dist/types",
   "dependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.2",
     "@uform/antd": "^1.0.5",
     "@uform/react": "^1.0.5",
     "@uform/react-schema-renderer": "^1.0.5",
@@ -17,11 +21,10 @@
     "react-redux": "^7.2.2",
     "react-scripts": "3.2.0",
     "redux": "^4.0.5",
-    "rollup-plugin-typescript2": "^0.25.3",
     "styled-components": "^5.2.1",
     "uglify-js": "^3.7.4",
     "web-vitals": "^1.1.0",
-    "xf-storybook-demo-task": "^0.0.2"
+    "xf-storybook-demo-task": "^0.0.6"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -30,7 +33,8 @@
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public",
-    "chromatic": "npx chromatic --project-token 07280fd58a9c"
+    "chromatic": "npx chromatic --project-token 07280fd58a9c",
+    "rollup": "sh GlobalBuild.sh"
   },
   "eslintConfig": {
     "extends": [
@@ -52,7 +56,7 @@
   },
   "devDependencies": {
     "@babel/plugin-external-helpers": "^7.2.0",
-    "@babel/plugin-proposal-class-properties": "^7.7.4",
+    "@babel/plugin-proposal-class-properties": "^7.13.0",
     "@babel/plugin-syntax-dynamic-import": "^7.7.4",
     "@babel/plugin-transform-arrow-functions": "^7.7.4",
     "@babel/preset-env": "^7.7.1",
@@ -88,6 +92,7 @@
     "rollup-plugin-peer-deps-external": "^2.2.0",
     "rollup-plugin-postcss": "^2.0.3",
     "rollup-plugin-terser": "^5.2.0",
+    "rollup-plugin-typescript2": "^0.30.0",
     "rollup-plugin-url": "^3.0.0",
     "storybook-readme": "^5.0.9",
     "ts-import-plugin": "^1.6.1",

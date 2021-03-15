@@ -1,6 +1,6 @@
 {
   "name": "@xufeng-li/util",
-  "version": "0.0.5",
+  "version": "0.0.9",
   "description": "this util for taskbox demo.",
   "keywords": [
     "util"
@@ -9,14 +9,13 @@
   "homepage": "https://github.com/XuFeng-Li/taskbox#readme",
   "license": "ISC",
   "main": "dist/index.js",
-  "min": "dist/index.min.js",
   "module": "dist/es/index.es.js",
-  "directories": {
-    "lib": "src",
-    "test": "__tests__"
-  },
+  "min": "dist/index.min.js",
+  "minName": "util",
+  "types": "dist/types",
   "files": [
-    "src"
+    "src",
+    "dist"
   ],
   "publishConfig": {
     "registry": "http://registry.npmjs.org/",
@@ -39,5 +38,5 @@
     "mathjs": "^9.2.0",
     "qs": "^6.9.6"
   },
-  "gitHead": "791f761f481ad059aced5856f9b8beb2678f95c8"
+  "gitHead": "599c8b7d0a4d25e635eaac5fc6a03c596e14ebf6"
 }

@@ -5,7 +5,12 @@ import "../../index.css";
 export const Task = ({task: {id, title, state}, onArchiveTask, onPinTask}) => {
     return (
         <div className={`list-item ${state}`}>
-            <label className="checkbox">
+            <label
+              className="checkbox"
+              style={{
+                background: "#ABCD09"
+              }}
+            >
                 <input
                     type="checkbox"
                     defaultChecked={state === 'TASK_ARCHIVED'}

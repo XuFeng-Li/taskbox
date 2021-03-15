@@ -27,4 +27,3 @@ storybook-static
 build-storybook.log
 
 __tests__
-dist

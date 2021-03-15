@@ -1,5 +1,5 @@
-import React from "react";
-import { FormatWan } from "../index";
+// import React from "react";
+// import { FormatWan } from "../index";
 // import {storiesOf} from "@storybook/react";
 // export default {
 //   title: "Example/Util",
