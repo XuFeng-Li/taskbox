@@ -8,7 +8,7 @@ export const Task = ({task: {id, title, state}, onArchiveTask, onPinTask}) => {
             <label
               className="checkbox"
               style={{
-                background: "#ABCD09"
+                background: "#239909"
               }}
             >
                 <input

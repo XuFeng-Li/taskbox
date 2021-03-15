@@ -1,6 +1,6 @@
 {
   "name": "xf-demo-form",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "this package with form",
   "keywords": [
     "form"
@@ -35,7 +35,7 @@
     "url": "https://github.com/XuFeng-Li/taskbox/issues"
   },
   "dependencies": {
-    "@xufeng-li/util": "^0.0.9",
+    "@xufeng-li/util": "^0.0.10",
     "prop-types": "^15.7.2"
   },
   "peerDependencies": {

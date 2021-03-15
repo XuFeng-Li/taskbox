@@ -1,26 +1,25 @@
 {
-  "name": "@xufeng-li/demo-tsx-task",
-  "version": "0.0.7",
-  "description": "this taskbox package for with tsx.",
+  "name": "xf-demo-label",
+  "version": "0.0.2",
+  "description": "这是一个标签",
   "keywords": [
-    "taskbox"
+    "label"
   ],
   "author": "李旭峰 <lxf@asman.com.cn>",
   "homepage": "https://github.com/XuFeng-Li/taskbox#readme",
   "license": "ISC",
-  "inputFile": "src/index.ts",
   "main": "dist/index.js",
   "module": "dist/es/index.es.js",
   "min": "dist/index.min.js",
-  "minName": "DemoTsxTask",
-  "types": "dist/types",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
   "files": [
-    "src",
-    "dist"
+    "src"
   ],
   "publishConfig": {
-    "registry": "http://registry.npmjs.org/",
-    "access": "public"
+    "registry": "http://registry.npmjs.org/"
   },
   "repository": {
     "type": "git",
@@ -35,5 +34,11 @@
   "bugs": {
     "url": "https://github.com/XuFeng-Li/taskbox/issues"
   },
-  "gitHead": "599c8b7d0a4d25e635eaac5fc6a03c596e14ebf6"
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
 }
