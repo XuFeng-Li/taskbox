@@ -1,0 +1,44 @@
+{
+  "name": "xf-demo-label",
+  "version": "0.0.1",
+  "description": "这是一个标签",
+  "keywords": [
+    "label"
+  ],
+  "author": "李旭峰 <lxf@asman.com.cn>",
+  "homepage": "https://github.com/XuFeng-Li/taskbox#readme",
+  "license": "ISC",
+  "main": "dist/index.js",
+  "module": "dist/es/index.es.js",
+  "min": "dist/index.min.js",
+  "directories": {
+    "lib": "src",
+    "test": "__tests__"
+  },
+  "files": [
+    "src"
+  ],
+  "publishConfig": {
+    "registry": "http://registry.npmjs.org/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/XuFeng-Li/taskbox.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c ../../rollup.config.js",
+    "module": "dist/es/index.es.js",
+    "rollup": "rollup -c ../../rollup.config.js"
+  },
+  "bugs": {
+    "url": "https://github.com/XuFeng-Li/taskbox/issues"
+  },
+  "peerDependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "dependencies": {
+    "prop-types": "^15.7.2"
+  }
+}
