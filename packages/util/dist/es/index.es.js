@@ -1,12 +1,6 @@
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
-
-var React = _interopDefault(require('react'));
-var PropTypes = _interopDefault(require('prop-types'));
-var qs = require('qs');
+import React from 'react';
+import PropTypes from 'prop-types';
+import { parse, stringify } from 'qs';
 
 function _typeof(obj) {
   "@babel/helpers - typeof";
@@ -338,12 +332,12 @@ function getRoutes(path, routerData) {
   return renderRoutes;
 }
 function getPageQuery() {
-  return qs.parse(window.location.href.split('?')[1]);
+  return parse(window.location.href.split('?')[1]);
 }
 function getQueryPath() {
   var path = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
   var query = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-  var search = qs.stringify(query);
+  var search = stringify(query);
 
   if (search.length) {
     return "".concat(path, "?").concat(search);
@@ -1135,70 +1129,4 @@ var StoriesDiv = function StoriesDiv(_ref) {
   return /*#__PURE__*/React.createElement("div", null, child);
 };
 
-exports.FormatWan = FormatWan;
-exports.MinuteToyuan = MinuteToyuan;
-exports.StoriesDiv = StoriesDiv;
-exports.YuanAndMinuteReverse = YuanAndMinuteReverse;
-exports.arrayDelOne = arrayDelOne;
-exports.arrayFilterSame = arrayFilterSame;
-exports.arrayHasSame = arrayHasSame;
-exports.assignObj = assignObj;
-exports.beforeFieldsToRedux = beforeFieldsToRedux;
-exports.beforeTrim = beforeTrim;
-exports.dateSplit = dateSplit;
-exports.doneMaxDo = doneMaxDo;
-exports.downLoadFile = downLoadFile;
-exports.downLoadFileByBlob = downLoadFileByBlob;
-exports.extendXprops = extendXprops;
-exports.fen2wan = fen2wan;
-exports.fen2yuan = fen2yuan;
-exports.fenToWan = fenToWan;
-exports.fieldsToData = fieldsToData;
-exports.fieldsToRedux = fieldsToRedux;
-exports.fileListTourlMap = fileListTourlMap;
-exports.filterEmptyAttr = filterEmptyAttr;
-exports.filterRender = filterRender;
-exports.findDataByKey = findDataByKey;
-exports.fixedZero = fixedZero;
-exports.getFileTypeByName = getFileTypeByName;
-exports.getPageQuery = getPageQuery;
-exports.getPlainNode = getPlainNode;
-exports.getQueryPath = getQueryPath;
-exports.getRoutes = getRoutes;
-exports.getSearchFormProperties = getSearchFormProperties;
-exports.getYuanStr = getYuanStr;
-exports.isAntdPro = isAntdPro;
-exports.isArr = isArr;
-exports.isBool = isBool;
-exports.isEmpty = isEmpty;
-exports.isEmptyArr = isEmptyArr;
-exports.isFn = isFn;
-exports.isImage = isImage;
-exports.isNum = isNum;
-exports.isObj = isObj;
-exports.isPlainObj = isPlainObj;
-exports.isRegExp = isRegExp;
-exports.isStr = isStr;
-exports.isUNaN = isUNaN;
-exports.isUrl = isUrl;
-exports.listPlusByKey = listPlusByKey;
-exports.mapSomeAttr = mapSomeAttr;
-exports.mapSomeAttrWithParents = mapSomeAttrWithParents;
-exports.mapToObject = mapToObject;
-exports.minuteToyuanStr = minuteToyuanStr;
-exports.pickAttr = pickAttr;
-exports.pickSomeAttr = pickSomeAttr;
-exports.simplifyFileName = simplifyFileName;
-exports.simplifyUrlMapToFileList = simplifyUrlMapToFileList;
-exports.strSplit = strSplit;
-exports.stringifySome = stringifySome;
-exports.transformServerDataForDefaultTreeData = transformServerDataForDefaultTreeData;
-exports.trim = trim;
-exports.trimFormValue = trimFormValue;
-exports.urlMapToFile = urlMapToFile;
-exports.urlMapToFileList = urlMapToFileList;
-exports.validateFormListFields = validateFormListFields;
-exports.valuesToFileds = valuesToFileds;
-exports.wrapperByFunc = wrapperByFunc;
-exports.wrapperByKey = wrapperByKey;
-exports.yuan2fen = yuan2fen;
+export { FormatWan, MinuteToyuan, StoriesDiv, YuanAndMinuteReverse, arrayDelOne, arrayFilterSame, arrayHasSame, assignObj, beforeFieldsToRedux, beforeTrim, dateSplit, doneMaxDo, downLoadFile, downLoadFileByBlob, extendXprops, fen2wan, fen2yuan, fenToWan, fieldsToData, fieldsToRedux, fileListTourlMap, filterEmptyAttr, filterRender, findDataByKey, fixedZero, getFileTypeByName, getPageQuery, getPlainNode, getQueryPath, getRoutes, getSearchFormProperties, getYuanStr, isAntdPro, isArr, isBool, isEmpty, isEmptyArr, isFn, isImage, isNum, isObj, isPlainObj, isRegExp, isStr, isUNaN, isUrl, listPlusByKey, mapSomeAttr, mapSomeAttrWithParents, mapToObject, minuteToyuanStr, pickAttr, pickSomeAttr, simplifyFileName, simplifyUrlMapToFileList, strSplit, stringifySome, transformServerDataForDefaultTreeData, trim, trimFormValue, urlMapToFile, urlMapToFileList, validateFormListFields, valuesToFileds, wrapperByFunc, wrapperByKey, yuan2fen };

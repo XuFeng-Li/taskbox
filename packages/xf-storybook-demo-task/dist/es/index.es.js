@@ -1,11 +1,5 @@
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
-
-var React = _interopDefault(require('react'));
-var PropTypes = _interopDefault(require('prop-types'));
+import React from 'react';
+import PropTypes from 'prop-types';
 
 var XFStoryBookDemoTask = function XFStoryBookDemoTask(_ref) {
   var _ref$task = _ref.task,
@@ -69,4 +63,4 @@ XFStoryBookDemoTask.propTypes = {
   onPinTask: PropTypes.func
 };
 
-exports.XFStoryBookDemoTask = XFStoryBookDemoTask;
+export { XFStoryBookDemoTask };

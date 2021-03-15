@@ -1,16 +1,9 @@
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
-
-require('antd/es/input/style');
-var _Input = _interopDefault(require('antd/es/input'));
-var React = require('react');
-var React__default = _interopDefault(React);
-var PropTypes = _interopDefault(require('prop-types'));
-require('antd/es/select/style');
-var _Select = _interopDefault(require('antd/es/select'));
+import 'antd/es/input/style';
+import _Input from 'antd/es/input';
+import React, { Fragment, Component } from 'react';
+import PropTypes from 'prop-types';
+import 'antd/es/select/style';
+import _Select from 'antd/es/select';
 
 function _classCallCheck(instance, Constructor) {
   if (!(instance instanceof Constructor)) {
@@ -210,12 +203,12 @@ var CombinInput = /*#__PURE__*/function (_Component) {
           _this$props$setting = _this$props.setting,
           setting = _this$props$setting === void 0 ? [] : _this$props$setting;
       var value = this.state.value;
-      return /*#__PURE__*/React__default.createElement("div", null, setting.map(function (ele, i) {
+      return /*#__PURE__*/React.createElement("div", null, setting.map(function (ele, i) {
         var name = ele.name,
             label = ele.label;
-        return /*#__PURE__*/React__default.createElement(React.Fragment, {
+        return /*#__PURE__*/React.createElement(Fragment, {
           key: -i
-        }, /*#__PURE__*/React__default.createElement(_Input, {
+        }, /*#__PURE__*/React.createElement(_Input, {
           placeholder: "\u8BF7\u8F93\u5165",
           value: value[name],
           disabled: !!disabled,
@@ -244,7 +237,7 @@ var CombinInput = /*#__PURE__*/function (_Component) {
   }]);
 
   return CombinInput;
-}(React.Component);
+}(Component);
 CombinInput.propTypes = {
   /**
    * 输入框是否禁用
@@ -333,13 +326,13 @@ var CombinSelect = /*#__PURE__*/function (_Component) {
           _this$props$setting = _this$props.setting,
           setting = _this$props$setting === void 0 ? [] : _this$props$setting;
       var value = this.state.value;
-      return /*#__PURE__*/React__default.createElement("div", {
+      return /*#__PURE__*/React.createElement("div", {
         className: "HouseTypeSelect"
       }, setting.map(function (ele, i) {
         var name = ele.name,
             label = ele.label,
             options = ele.options;
-        return /*#__PURE__*/React__default.createElement("div", {
+        return /*#__PURE__*/React.createElement("div", {
           key: -i,
           style: {
             display: 'flex',
@@ -347,7 +340,7 @@ var CombinSelect = /*#__PURE__*/function (_Component) {
             alignItems: 'center',
             justifyContent: 'flex-start'
           }
-        }, /*#__PURE__*/React__default.createElement(_Select, {
+        }, /*#__PURE__*/React.createElement(_Select, {
           disabled: disabled,
           value: value[name],
           onChange: function onChange(val) {
@@ -357,12 +350,12 @@ var CombinSelect = /*#__PURE__*/function (_Component) {
             width: width || '40%'
           }
         }, options.map(function (op, k) {
-          return /*#__PURE__*/React__default.createElement(Option, {
+          return /*#__PURE__*/React.createElement(Option, {
             key: -k,
             value: op.value,
             disabled: false
           }, op.label || op.value);
-        })), /*#__PURE__*/React__default.createElement("label", {
+        })), /*#__PURE__*/React.createElement("label", {
           style: {
             marginLeft: '20px'
           }
@@ -384,7 +377,7 @@ var CombinSelect = /*#__PURE__*/function (_Component) {
   }]);
 
   return CombinSelect;
-}(React.Component);
+}(Component);
 CombinSelect.propTypes = {
   /**
    * 下拉框是否禁用
@@ -430,5 +423,4 @@ CombinSelect.defaultProps = {
   }]
 };
 
-exports.XFCombinInput = CombinInput;
-exports.XFCombinSelect = CombinSelect;
+export { CombinInput as XFCombinInput, CombinSelect as XFCombinSelect };

@@ -1,13 +1,6 @@
-'use strict';
-
-Object.defineProperty(exports, '__esModule', { value: true });
-
-function _interopDefault (ex) { return (ex && (typeof ex === 'object') && 'default' in ex) ? ex['default'] : ex; }
-
-require('prop-types');
-var React = require('react');
-var React__default = _interopDefault(React);
-var util = require('@xufeng-li/util');
+import 'prop-types';
+import React, { Fragment, useState } from 'react';
+import { isStr, simplifyFileName, trim, isFn } from '@xufeng-li/util';
 
 function _defineProperty(obj, key, value) {
   if (key in obj) {
@@ -174,7 +167,7 @@ var isZero = function isZero(val) {
 
 var SquareMeterInfo = function SquareMeterInfo(props) {
   var info = props.info;
-  return /*#__PURE__*/React__default.createElement("span", null, info || '---', "\xA0", info && '㎡');
+  return /*#__PURE__*/React.createElement("span", null, info || '---', "\xA0", info && '㎡');
 };
 var defaultKayMap = {
   bedroomNum: 'bedroomNum',
@@ -195,7 +188,7 @@ var HouseType = function HouseType(props) {
   var kitchen = data[keyMap.kitchenNum] || isZero(data[keyMap.kitchenNum]) ? data[keyMap.kitchenNum] : '--';
   var bathroom = data[keyMap.bathroomNum] || isZero(data[keyMap.bathroomNum]) ? data[keyMap.bathroomNum] : '--';
   var balconyNum = data[keyMap.balconyNum] || isZero(data[keyMap.balconyNum]) ? data[keyMap.balconyNum] : '--';
-  return /*#__PURE__*/React__default.createElement("span", null, "".concat(bedroom, "\u5BA4").concat(livingRoom, "\u5385").concat(kitchen, "\u53A8").concat(bathroom, "\u536B").concat(balconyNum, "\u9633\u53F0"));
+  return /*#__PURE__*/React.createElement("span", null, "".concat(bedroom, "\u5BA4").concat(livingRoom, "\u5385").concat(kitchen, "\u53A8").concat(bathroom, "\u536B").concat(balconyNum, "\u9633\u53F0"));
 };
 var defaultAreaKayMap = {
   provinceName: 'provinceName',
@@ -225,7 +218,7 @@ var AreaInfo = function AreaInfo(props) {
   var city = data[keyMap.cityName] ? data[keyMap.cityName] : '--';
   var district = data[keyMap.districtName] ? data[keyMap.districtName] : ''; // 区可能没有
 
-  return /*#__PURE__*/React__default.createElement("span", null, "".concat(province).concat(city).concat(district), "\xA0\xA0", address || null);
+  return /*#__PURE__*/React.createElement("span", null, "".concat(province).concat(city).concat(district), "\xA0\xA0", address || null);
 };
 var UpLoadInfo = function UpLoadInfo(props) {
   var noHref = props.noHref,
@@ -234,7 +227,7 @@ var UpLoadInfo = function UpLoadInfo(props) {
   var data = props.data;
   if (!data || !data.length) return null;
   if (typeof data === 'string') data = [data];
-  return /*#__PURE__*/React__default.createElement(React.Fragment, null, data.map(function (ele, i) {
+  return /*#__PURE__*/React.createElement(Fragment, null, data.map(function (ele, i) {
     var extendStyle = {};
 
     if (i) {
@@ -247,11 +240,11 @@ var UpLoadInfo = function UpLoadInfo(props) {
       extendStyle.target = '_blank';
     }
 
-    return /*#__PURE__*/React__default.createElement("a", {
+    return /*#__PURE__*/React.createElement("a", {
       href: noHref ? 'javascript:void(0);' : ele,
       key: -i,
       rel: "noopener noreferrer"
-    }, /*#__PURE__*/React__default.createElement("img", {
+    }, /*#__PURE__*/React.createElement("img", {
       src: ele,
       alt: "pic",
       width: "86px",
@@ -265,7 +258,7 @@ var VideoList = function VideoList(props) {
   var list = props.list;
   if (!list || !list.length) return null;
   if (typeof list === 'string') list = [list];
-  return /*#__PURE__*/React__default.createElement(React.Fragment, null, list.map(function (ele, i) {
+  return /*#__PURE__*/React.createElement(Fragment, null, list.map(function (ele, i) {
     var extendStyle = {
       width: 160,
       height: 120,
@@ -277,7 +270,7 @@ var VideoList = function VideoList(props) {
     }
 
     extendStyle = _objectSpread2(_objectSpread2({}, extendStyle), style);
-    return /*#__PURE__*/React__default.createElement("video", {
+    return /*#__PURE__*/React.createElement("video", {
       key: ele,
       style: _objectSpread2({
         display: 'inline-block'
@@ -300,11 +293,11 @@ var MainPic = function MainPic(props) {
   var h = "".concat(height).replace(/px/, '');
 
   if (url && isPrivate) {
-    return /*#__PURE__*/React__default.createElement("a", {
+    return /*#__PURE__*/React.createElement("a", {
       href: url,
       rel: "noopener noreferrer",
       target: "_blank"
-    }, /*#__PURE__*/React__default.createElement("img", {
+    }, /*#__PURE__*/React.createElement("img", {
       src: "".concat(url),
       alt: "pic",
       height: "100px",
@@ -314,11 +307,11 @@ var MainPic = function MainPic(props) {
   }
 
   if (url) {
-    return /*#__PURE__*/React__default.createElement("a", {
+    return /*#__PURE__*/React.createElement("a", {
       href: url,
       rel: "noopener noreferrer",
       target: "_blank"
-    }, /*#__PURE__*/React__default.createElement("img", {
+    }, /*#__PURE__*/React.createElement("img", {
       src: "".concat(url, "?x-oss-process=image/resize,m_fixed,h_").concat(h, ",w_").concat(w),
       alt: "pic",
       height: "100px",
@@ -327,11 +320,11 @@ var MainPic = function MainPic(props) {
     }));
   }
 
-  return /*#__PURE__*/React__default.createElement("a", {
+  return /*#__PURE__*/React.createElement("a", {
     href: "javascript:void(0);",
     rel: "noopener noreferrer",
     target: "_blank"
-  }, /*#__PURE__*/React__default.createElement("img", {
+  }, /*#__PURE__*/React.createElement("img", {
     src: "https://asman-img.oss-cn-hangzhou.aliyuncs.com/noPic_0e7bffac7958f603a8b37fe3cda07499.png",
     alt: "pic",
     height: "100px",
@@ -373,20 +366,20 @@ var UploadPreview = function UploadPreview(props) {
   innerStyle = height == null ? _objectSpread2({}, innerStyle) : _objectSpread2(_objectSpread2({}, innerStyle), {}, {
     height: height
   });
-  return /*#__PURE__*/React__default.createElement("div", _extends({}, rest, {
+  return /*#__PURE__*/React.createElement("div", _extends({}, rest, {
     style: _objectSpread2({}, style),
     className: "poi tc",
     onClick: function onClick() {
       showImagePreview();
     }
-  }), params.type === 'video' ? /*#__PURE__*/React__default.createElement(VideoList, {
+  }), params.type === 'video' ? /*#__PURE__*/React.createElement(VideoList, {
     list: list[0],
     style: _objectSpread2({}, innerStyle)
-  }) : /*#__PURE__*/React__default.createElement(UpLoadInfo, {
+  }) : /*#__PURE__*/React.createElement(UpLoadInfo, {
     style: _objectSpread2({}, innerStyle),
     noHref: true,
     data: list[0]
-  }), /*#__PURE__*/React__default.createElement("div", {
+  }), /*#__PURE__*/React.createElement("div", {
     className: "bc tc"
   }, "\u5171", list.length, params.type === 'video' ? '个视频' : '张图片'));
 };
@@ -394,14 +387,14 @@ var UrlLink = function UrlLink(props) {
   var list = props.list;
   if (!list) return;
 
-  if (util.isStr(list)) {
+  if (isStr(list)) {
     list = [list];
   } // eslint-disable-next-line consistent-return
 
 
   return list.map(function (ele) {
-    var url = util.simplifyFileName(ele);
-    return /*#__PURE__*/React__default.createElement("div", null, /*#__PURE__*/React__default.createElement("a", {
+    var url = simplifyFileName(ele);
+    return /*#__PURE__*/React.createElement("div", null, /*#__PURE__*/React.createElement("a", {
       href: ele,
       rel: "noopener noreferrer",
       target: "_blank"
@@ -411,7 +404,7 @@ var UrlLink = function UrlLink(props) {
 var BlankLink = function BlankLink(props) {
   var href = props.href,
       title = props.title;
-  return /*#__PURE__*/React__default.createElement("a", {
+  return /*#__PURE__*/React.createElement("a", {
     href: href,
     rel: "noopener noreferrer",
     target: "_blank"
@@ -428,7 +421,7 @@ var TitleInfo = function TitleInfo(props) {
     tit = "".concat(tit.substring(0, len), "...");
   }
 
-  return /*#__PURE__*/React__default.createElement("span", _extends({}, rest, {
+  return /*#__PURE__*/React.createElement("span", _extends({}, rest, {
     title: info
   }), tit);
 };
@@ -438,7 +431,7 @@ var BuleWrapper = function BuleWrapper(props) {
       _props$color = props.color,
       color = _props$color === void 0 ? '#0066FF' : _props$color;
   if (!info) return null;
-  return /*#__PURE__*/React__default.createElement("span", null, /*#__PURE__*/React__default.createElement("span", {
+  return /*#__PURE__*/React.createElement("span", null, /*#__PURE__*/React.createElement("span", {
     style: {
       color: color
     }
@@ -449,7 +442,7 @@ var Bule = function Bule(props) {
       _props$color2 = props.color,
       color = _props$color2 === void 0 ? '#0066FF' : _props$color2;
   if (!info) return null;
-  return /*#__PURE__*/React__default.createElement("span", {
+  return /*#__PURE__*/React.createElement("span", {
     style: {
       color: color
     }
@@ -460,7 +453,7 @@ var Red = function Red(props) {
       _props$color3 = props.color,
       color = _props$color3 === void 0 ? '#FF0000' : _props$color3;
   if (!info) return null;
-  return /*#__PURE__*/React__default.createElement("span", {
+  return /*#__PURE__*/React.createElement("span", {
     style: {
       color: color
     }
@@ -468,7 +461,7 @@ var Red = function Red(props) {
 };
 var getColorWrapper = function getColorWrapper(props) {
   var info = props.info;
-  return info ? /*#__PURE__*/React__default.createElement(BuleWrapper, props) : null;
+  return info ? /*#__PURE__*/React.createElement(BuleWrapper, props) : null;
 };
 var ShowMoreInfo = function ShowMoreInfo(props) {
   var info = props.info,
@@ -483,7 +476,7 @@ var ShowMoreInfo = function ShowMoreInfo(props) {
     initValue = info;
   }
 
-  var _useState = React.useState(initValue),
+  var _useState = useState(initValue),
       _useState2 = _slicedToArray(_useState, 2),
       showInfo = _useState2[0],
       setShowInfo = _useState2[1];
@@ -496,7 +489,7 @@ var ShowMoreInfo = function ShowMoreInfo(props) {
     setShowInfo(isShowAll() ? initValue : info);
   };
 
-  return /*#__PURE__*/React__default.createElement("span", null, showInfo, " ", needSubstring ? /*#__PURE__*/React__default.createElement("span", {
+  return /*#__PURE__*/React.createElement("span", null, showInfo, " ", needSubstring ? /*#__PURE__*/React.createElement("span", {
     className: "likeA",
     onClick: function onClick() {
       return showMore();
@@ -512,18 +505,18 @@ var HouseDesc = function HouseDesc(props) {
   var buildingNo = props.buildingNo,
       unitNo = props.unitNo,
       roomNo = props.roomNo;
-  return /*#__PURE__*/React__default.createElement("span", null, "".concat(buildingNo || '--', "\u5E62").concat(unitNo || '--', "\u5355\u5143").concat(roomNo || '--', "\u5BA4"));
+  return /*#__PURE__*/React.createElement("span", null, "".concat(buildingNo || '--', "\u5E62").concat(unitNo || '--', "\u5355\u5143").concat(roomNo || '--', "\u5BA4"));
 };
 var SomeRed = function SomeRed(props) {
   var info = props.info,
       keyWord = props.keyWord;
   if (!info || !keyWord) return info;
-  var trimkey = util.trim(keyWord);
+  var trimkey = trim(keyWord);
   var subIndex = info.indexOf(trimkey);
   if (subIndex === -1) return info;
   var start = info.substring(0, subIndex);
   var end = info.substring(subIndex + trimkey.length);
-  return /*#__PURE__*/React__default.createElement("span", null, start, /*#__PURE__*/React__default.createElement("span", {
+  return /*#__PURE__*/React.createElement("span", null, start, /*#__PURE__*/React.createElement("span", {
     style: {
       color: 'red'
     }
@@ -539,7 +532,7 @@ var BuildingArea = function BuildingArea(props) {
       unitNo = _ref.unitNo,
       roomNo = _ref.roomNo;
 
-  return /*#__PURE__*/React__default.createElement("span", null, "".concat(buildingName || '--').concat(houseCode ? "".concat(houseCode, "\u6237\u578B") : ''), " ", /*#__PURE__*/React__default.createElement("br", null), " ", buildingNo ? "".concat(buildingNo || '--', "\u680B").concat(unitNo || '--', "\u5355\u5143").concat(roomNo || '--', "\u5BA4") : '');
+  return /*#__PURE__*/React.createElement("span", null, "".concat(buildingName || '--').concat(houseCode ? "".concat(houseCode, "\u6237\u578B") : ''), " ", /*#__PURE__*/React.createElement("br", null), " ", buildingNo ? "".concat(buildingNo || '--', "\u680B").concat(unitNo || '--', "\u5355\u5143").concat(roomNo || '--', "\u5BA4") : '');
 };
 var LRInfo = function LRInfo(props) {
   var title = props.title,
@@ -567,42 +560,24 @@ var LRInfo = function LRInfo(props) {
   };
   var infoProps = {};
 
-  if (util.isFn(onClick)) {
+  if (isFn(onClick)) {
     infoProps = {
       onClick: onClick
     };
   }
 
   if (!title) {
-    return /*#__PURE__*/React__default.createElement("div", infoProps, info);
+    return /*#__PURE__*/React.createElement("div", infoProps, info);
   }
 
-  return /*#__PURE__*/React__default.createElement("div", {
+  return /*#__PURE__*/React.createElement("div", {
     className: "df"
-  }, /*#__PURE__*/React__default.createElement("div", _extends({
+  }, /*#__PURE__*/React.createElement("div", _extends({
     className: "g0"
-  }, titleProps), title || ' -- ', "\xA0", hasColon ? ':' : null, " \xA0"), /*#__PURE__*/React__default.createElement("div", _extends({
+  }, titleProps), title || ' -- ', "\xA0", hasColon ? ':' : null, " \xA0"), /*#__PURE__*/React.createElement("div", _extends({
     className: "df flex1"
   }, infoProps), info !== 0 ? info || '---' : info));
 };
 
-exports.AreaInfo = AreaInfo;
-exports.BlankLink = BlankLink;
-exports.BuildingArea = BuildingArea;
-exports.Bule = Bule;
-exports.BuleWrapper = BuleWrapper;
-exports.HouseDesc = HouseDesc;
-exports.HouseType = HouseType;
-exports.LRInfo = LRInfo;
-exports.MainPic = MainPic;
-exports.Red = Red;
-exports.ShowMoreInfo = ShowMoreInfo;
-exports.SomeRed = SomeRed;
-exports.SquareMeterInfo = SquareMeterInfo;
-exports.TitleInfo = TitleInfo;
-exports.UpLoadInfo = UpLoadInfo;
-exports.UploadPreview = UploadPreview;
-exports.UrlLink = UrlLink;
-exports.VideoList = VideoList;
-exports.default = LRInfo;
-exports.getColorWrapper = getColorWrapper;
+export default LRInfo;
+export { AreaInfo, BlankLink, BuildingArea, Bule, BuleWrapper, HouseDesc, HouseType, LRInfo, MainPic, Red, ShowMoreInfo, SomeRed, SquareMeterInfo, TitleInfo, UpLoadInfo, UploadPreview, UrlLink, VideoList, getColorWrapper };
